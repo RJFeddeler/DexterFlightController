@@ -1,0 +1,25 @@
+<map id="delay_us" name="delay_us">
+<area shape="rect" id="node2" href="$dc/d49/clocks_8h.html#abccf1850559310bf7bf693d79768eed7" title="Pauses code execution for a given amount of time in milliseconds. " alt="" coords="169,275,222,301"/>
+<area shape="rect" id="node21" href="$d2/def/hcsr05_8h.html#ace451a5257a0fbbd8b9e9c094b88c178" title="Send a high pulse for 10 uS to trigger the sensor to start. " alt="" coords="128,427,263,453"/>
+<area shape="rect" id="node22" href="$d3/d40/i2c__helper_8h.html#a5a09955b069cd52141f2f541e48780f8" title="If an I2C bus freezes up or becomes unusable, then un&#45;sticking it may reset it to be usable again..." alt="" coords="130,579,261,605"/>
+<area shape="rect" id="node3" href="$d1/de4/bmp280_8h.html#a6c50557a33966747573ec95378843ee0" title="Initialize variables and prepare to begin normal operation. " alt="" coords="794,325,886,352"/>
+<area shape="rect" id="node5" href="$d0/d88/bno055_8h.html#af806f0aa9f12441ed6b8acd83017a8d1" title="Initialize variables and prepare to begin normal operation. " alt="" coords="352,477,440,504"/>
+<area shape="rect" id="node6" href="$d0/d88/bno055_8h.html#a394bafbaab8543e54d768917ac020259" title="Attempt to recover from a problem with the peripheral by resetting certain things depending on how lo..." alt="" coords="547,528,681,555"/>
+<area shape="rect" id="node9" href="$d2/def/hcsr05_8h.html#a88fa967c4800087785e9e19003ebbc52" title="Reset GPIO pin B3 (echo) if an echo is never received and the line never resets for some reason..." alt="" coords="330,376,462,403"/>
+<area shape="rect" id="node11" href="$d0/d29/main_8c.html#ad5f4b240c6c505ba845290e2c29bca6e" title="error_state" alt="" coords="572,5,656,32"/>
+<area shape="rect" id="node12" href="$df/dc0/onboard__led_8h.html#a772f4735294b5856b9e5be99adba03fb" title="Turn on the LED of a given color for some time before turning it off. " alt="" coords="333,173,459,200"/>
+<area shape="rect" id="node13" href="$df/dc0/onboard__led_8h.html#a33ef32c4ca34e49923771342a62db6d9" title="Cycle through an animation of the four LEDs in an infinite loop. " alt="" coords="311,64,481,91"/>
+<area shape="rect" id="node14" href="$d4/d16/sdcard_8h.html#a4bebd00d734432d36b53b5f10098afc7" title="Enable clocks, configure GPIO pin A4 as Output (Chip Select), configure pin A5 (SCK), pin A6 (MISO), and pin A7 (MOSI) as Alternate Function (SPI1), configure DMA2_Stream3_Channel3, and enable transfer complete interrupt for DMA and SPI. " alt="" coords="345,224,447,251"/>
+<area shape="rect" id="node15" href="$d5/d60/serialtx_8h.html#a85c1caad0c49b32dc0c0ff9c1b85561b" title="Send the data in the buffer across the serial transmitting line. " alt="" coords="347,123,445,149"/>
+<area shape="rect" id="node17" href="$db/d3b/state_8h.html#a96caac9788ac888d3f5ba39e91f0bee3" title="Update loop to handle state switching, failsafe and error handling, and sending the Drone Dashboard p..." alt="" coords="791,216,889,243"/>
+<area shape="rect" id="node4" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="981,401,1032,428"/>
+<area shape="rect" id="node7" href="$d9/d05/bno055_8c.html#ac94fc5e78628ab5037170f7626ded1da" title="The interrupt handler receives the remaining I2C data at the end of the DMA transfer and resets the D..." alt="" coords="747,477,933,504"/>
+<area shape="rect" id="node8" href="$d0/d88/bno055_8h.html#ab8c48cf3122ef342fc4244cf47c5eb8c" title="Update loop to handle state switching, conversion from raw to cooked data, and error detection..." alt="" coords="785,528,895,555"/>
+<area shape="rect" id="node10" href="$d2/def/hcsr05_8h.html#a5763e6b15048855d298f22451df93cd3" title="Update loop to handle state switching, starting and checking the signal, and conversion from raw to c..." alt="" coords="561,376,667,403"/>
+<area shape="rect" id="node16" href="$d5/d60/serialtx_8h.html#aceb6d91be32b1693ef86a77964747a2f" title="Send a 32&#45;bit integer as string across the serial line. " alt="" coords="533,107,695,133"/>
+<area shape="rect" id="node18" href="$d5/d60/serialtx_8h.html#abb6092627b4c799b5f150ce360943f91" title="Send the values of the radio transmitter channels over the serial line. " alt="" coords="538,56,690,83"/>
+<area shape="rect" id="node19" href="$d5/d60/serialtx_8h.html#a5834aeaf9b6aae966b5f0257a6efb742" title="Send the Processing packet over the serial line for the Drone Dashboard. " alt="" coords="529,157,699,184"/>
+<area shape="rect" id="node20" href="$d5/d60/serialtx_8h.html#aacb2714f93ca0530d9d79ac571228f14" title="Send the Processing packet (including LED strip data) over the serial line for the Drone Dashboard..." alt="" coords="529,209,699,250"/>
+<area shape="rect" id="node23" href="$d1/de4/bmp280_8h.html#a9bfbdb5df64b461c003bef81af4a35fa" title="Enable clocks and configure GPIO pins B8 &amp; B9 as Alternate Function (I2C1). " alt="" coords="785,629,895,656"/>
+<area shape="rect" id="node24" href="$d0/d88/bno055_8h.html#a4767b45e7310c644186629c50b180e1a" title="Enable clocks, configure GPIO pins B10 &amp; B11 as Alternate Function (I2C2), configure DMA1_Stream2_Cha..." alt="" coords="343,579,449,605"/>
+</map>

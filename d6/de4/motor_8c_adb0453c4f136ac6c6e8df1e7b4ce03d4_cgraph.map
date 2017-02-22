@@ -1,0 +1,8 @@
+<map id="motor_mixer" name="motor_mixer">
+<area shape="rect" id="node2" href="$d0/dc9/state_8c.html#ab40e643ee58137754cfcb6f13b66d7f0" title="Get the current throttle value based on mode and radio transmitter stick position. " alt="" coords="148,5,271,32"/>
+<area shape="rect" id="node4" href="$df/d94/other__stuff_8c.html#a7b3ff1805d7e50020363b0fbb296430b" title="Make sure a value stays within a valid range between min and max. " alt="" coords="447,56,504,83"/>
+<area shape="rect" id="node7" href="$d6/de4/motor_8c.html#aa3ac24bb03cc232ecdc309fd2c7ee290" title="Set the speed of a given motor. " alt="" coords="319,107,399,133"/>
+<area shape="rect" id="node3" href="$df/d94/other__stuff_8c.html#a7f5925d059a3e978e4b099d9275fa6fe" title="Convert a value from one scale to another. " alt="" coords="332,5,385,32"/>
+<area shape="rect" id="node5" href="$df/d94/other__stuff_8c.html#a224d6ae2826297b60e8898a8c4edbdcd" title="Determine the smaller of two values. " alt="" coords="554,31,597,57"/>
+<area shape="rect" id="node6" href="$df/d94/other__stuff_8c.html#a64905bcb2be886c8a6e078e424178972" title="Determine the larger of two values. " alt="" coords="552,81,599,108"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="clocks_get_ticks" name="clocks_get_ticks">
+<area shape="rect" id="node2" href="$d1/de4/bmp280_8h.html#a76c218b3b04636749a1ccb2b10f66e3d" title="Use a Kalman filter to fuse pressure and accelerometer data to greatly increase altitude estimation a..." alt="" coords="185,5,348,32"/>
+<area shape="rect" id="node5" href="$db/d3b/state_8h.html#a96caac9788ac888d3f5ba39e91f0bee3" title="Update loop to handle state switching, failsafe and error handling, and sending the Drone Dashboard p..." alt="" coords="417,56,514,83"/>
+<area shape="rect" id="node6" href="$db/d3b/state_8h.html#a7a495b9de780d3b1242f990e979e9df0" title="Go through an iteration of the PID control loop. " alt="" coords="224,107,309,133"/>
+<area shape="rect" id="node8" href="$da/d1e/ws2812_8h.html#a73f24f6e6ca22da75c93f8863e7e359f" title="Update loop to handle state switching and animation updates at set intervals. " alt="" coords="409,157,521,184"/>
+<area shape="rect" id="node9" href="$da/d1e/ws2812_8h.html#a04364cbec378887f33449f975bcb976a" title="Update the specified section of the LED strip based on the animation options. " alt="" coords="207,208,326,235"/>
+<area shape="rect" id="node10" href="$d6/d79/x8r_8c.html#a7e367d7c7b74485c4c75cdef30ad01e1" title="The interrupt handler triggers when it receives data and handles syncing the data frame and checking ..." alt="" coords="173,259,360,285"/>
+<area shape="rect" id="node3" href="$d1/de4/bmp280_8h.html#a0c7e1f3ca61db5fac98e999aefea1700" title="Update loop to handle state switching and conversion from raw to cooked data. " alt="" coords="408,5,523,32"/>
+<area shape="rect" id="node4" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="571,81,621,108"/>
+<area shape="rect" id="node7" href="$d8/dc3/motor_8h.html#a8198d81a9f7893c18f292202bf1893b8" title="Update loop to handle state switching and control implementation. " alt="" coords="415,107,516,133"/>
+</map>

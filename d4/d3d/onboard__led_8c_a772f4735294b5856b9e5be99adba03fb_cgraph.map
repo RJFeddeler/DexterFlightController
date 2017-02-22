@@ -1,0 +1,6 @@
+<map id="onboard_led_blink" name="onboard_led_blink">
+<area shape="rect" id="node2" href="$dd/de3/clocks_8c.html#abccf1850559310bf7bf693d79768eed7" title="Pauses code execution for a given amount of time in milliseconds. " alt="" coords="180,31,233,57"/>
+<area shape="rect" id="node3" href="$dd/de3/clocks_8c.html#adca1b696913191bfa3de94c99ea8037b" title="Pauses code execution for a given amount of time in microseconds. " alt="" coords="281,31,356,57"/>
+<area shape="rect" id="node4" href="$dd/de3/clocks_8c.html#a55b8a8410927fd42677ff5ff28eeeb34" title="Initializes the timed_out function by setting the start time. " alt="" coords="404,5,507,32"/>
+<area shape="rect" id="node5" href="$dd/de3/clocks_8c.html#a80325e4278271f29c53518c551c315ba" title="Determines if a specified amount of time has passed in order to detect if a code sequence is taking t..." alt="" coords="405,56,505,83"/>
+</map>

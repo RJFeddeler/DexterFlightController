@@ -1,0 +1,11 @@
+<map id="ws2812_init" name="ws2812_init">
+<area shape="rect" id="node2" href="$d4/def/ws2812_8c.html#a9c0222f9dd8e2f67c15302f086d3dbc6" title="Set all the LEDs on the strip to the default color and brightness. " alt="" coords="391,71,555,98"/>
+<area shape="rect" id="node5" href="$d4/def/ws2812_8c.html#a5b61bb841f8b10919aa361e98bdbea4f" title="Set the overall maximum brightness level for all LEDs. " alt="" coords="144,122,343,149"/>
+<area shape="rect" id="node9" href="$d4/def/ws2812_8c.html#a55dc6870f79e3b46d8950d268948f815" title="Reset an animation to default settings (no animation). " alt="" coords="161,21,326,47"/>
+<area shape="rect" id="node3" href="$d4/def/ws2812_8c.html#ae0aafc0171605448b9608d8951aa5b4c" title="Fill a color structure with data based on a color name from the palette. " alt="" coords="603,5,755,47"/>
+<area shape="rect" id="node4" href="$d4/def/ws2812_8c.html#a376cb086c9ffc322247ccd93c8cff788" title="Copy the color data from one color structure to another. " alt="" coords="611,71,747,98"/>
+<area shape="rect" id="node6" href="$df/d94/other__stuff_8c.html#a7b3ff1805d7e50020363b0fbb296430b" title="Make sure a value stays within a valid range between min and max. " alt="" coords="444,122,501,149"/>
+<area shape="rect" id="node7" href="$df/d94/other__stuff_8c.html#a224d6ae2826297b60e8898a8c4edbdcd" title="Determine the smaller of two values. " alt="" coords="657,122,700,149"/>
+<area shape="rect" id="node8" href="$df/d94/other__stuff_8c.html#a64905bcb2be886c8a6e078e424178972" title="Determine the larger of two values. " alt="" coords="655,173,702,199"/>
+<area shape="rect" id="node10" href="$d4/def/ws2812_8c.html#a967552b9cebe0012138e69210571acf4" title="Reset the data in a specified ColorSet to default color and brightness values. " alt="" coords="395,21,550,47"/>
+</map>

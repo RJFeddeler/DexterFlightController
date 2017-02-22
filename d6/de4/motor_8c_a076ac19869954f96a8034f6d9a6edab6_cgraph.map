@@ -1,0 +1,6 @@
+<map id="motor_reset" name="motor_reset">
+<area shape="rect" id="node2" href="$d6/de4/motor_8c.html#aa3ac24bb03cc232ecdc309fd2c7ee290" title="Set the speed of a given motor. " alt="" coords="144,31,224,57"/>
+<area shape="rect" id="node3" href="$df/d94/other__stuff_8c.html#a7b3ff1805d7e50020363b0fbb296430b" title="Make sure a value stays within a valid range between min and max. " alt="" coords="272,31,329,57"/>
+<area shape="rect" id="node4" href="$df/d94/other__stuff_8c.html#a224d6ae2826297b60e8898a8c4edbdcd" title="Determine the smaller of two values. " alt="" coords="379,5,422,32"/>
+<area shape="rect" id="node5" href="$df/d94/other__stuff_8c.html#a64905bcb2be886c8a6e078e424178972" title="Determine the larger of two values. " alt="" coords="377,56,424,83"/>
+</map>

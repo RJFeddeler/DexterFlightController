@@ -1,0 +1,9 @@
+<map id="serialtx_send_processing_with_leds" name="serialtx_send_processing_with_leds">
+<area shape="rect" id="node2" href="$d1/d5e/serialtx_8c.html#a44a1e727446e0d513d5288aba657a865" title="Clear out the data transmission buffer. " alt="" coords="223,5,360,32"/>
+<area shape="rect" id="node3" href="$d4/d3d/onboard__led_8c.html#a27416205d947c70ee21988da9f325037" title="Get the current state of a given color&#39;s LED. " alt="" coords="233,56,350,83"/>
+<area shape="rect" id="node4" href="$d1/d5e/serialtx_8c.html#a85c1caad0c49b32dc0c0ff9c1b85561b" title="Send the data in the buffer across the serial transmitting line. " alt="" coords="242,107,341,133"/>
+<area shape="rect" id="node5" href="$dd/de3/clocks_8c.html#abccf1850559310bf7bf693d79768eed7" title="Pauses code execution for a given amount of time in milliseconds. " alt="" coords="408,107,461,133"/>
+<area shape="rect" id="node6" href="$dd/de3/clocks_8c.html#adca1b696913191bfa3de94c99ea8037b" title="Pauses code execution for a given amount of time in microseconds. " alt="" coords="509,107,584,133"/>
+<area shape="rect" id="node7" href="$dd/de3/clocks_8c.html#a55b8a8410927fd42677ff5ff28eeeb34" title="Initializes the timed_out function by setting the start time. " alt="" coords="632,81,735,108"/>
+<area shape="rect" id="node8" href="$dd/de3/clocks_8c.html#a80325e4278271f29c53518c551c315ba" title="Determines if a specified amount of time has passed in order to detect if a code sequence is taking t..." alt="" coords="633,132,733,159"/>
+</map>

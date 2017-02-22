@@ -1,0 +1,6 @@
+<map id="i2c_helper_write_word" name="i2c_helper_write_word">
+<area shape="rect" id="node2" href="$dd/d2d/i2c__helper_8c.html#ae002122c650a525a64f2cd95bbaba5ca" title="Write a given number of bytes to an I2C peripheral. " alt="" coords="203,31,357,57"/>
+<area shape="rect" id="node3" href="$dd/de3/clocks_8c.html#a55b8a8410927fd42677ff5ff28eeeb34" title="Initializes the timed_out function by setting the start time. " alt="" coords="405,5,508,32"/>
+<area shape="rect" id="node4" href="$dd/de3/clocks_8c.html#a612b56be2ae481fb4767a6e2d3cee6fd" title="Determines if a specified amount of time has passed in order to detect if a code sequence is taking t..." alt="" coords="417,56,496,83"/>
+<area shape="rect" id="node5" href="$dd/de3/clocks_8c.html#a80325e4278271f29c53518c551c315ba" title="Determines if a specified amount of time has passed in order to detect if a code sequence is taking t..." alt="" coords="556,56,656,83"/>
+</map>

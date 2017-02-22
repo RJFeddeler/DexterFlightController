@@ -1,0 +1,7 @@
+<map id="datalogger_update" name="datalogger_update">
+<area shape="rect" id="node2" href="$dd/de3/clocks_8c.html#a6bfa0b61c700896f296ad4490104b887" title="Determine if a specified amount of time has passed, which is useful for timing an event to execute at..." alt="" coords="181,31,361,57"/>
+<area shape="rect" id="node6" href="$d9/def/datalogger_8c.html#afa27b620b454aac743bd51d420fe5220" title="Used to change settings, enable/disable features, or trigger actions when switching between two diffe..." alt="" coords="188,81,355,108"/>
+<area shape="rect" id="node3" href="$df/d94/other__stuff_8c.html#a7b3ff1805d7e50020363b0fbb296430b" title="Make sure a value stays within a valid range between min and max. " alt="" coords="409,31,467,57"/>
+<area shape="rect" id="node4" href="$df/d94/other__stuff_8c.html#a224d6ae2826297b60e8898a8c4edbdcd" title="Determine the smaller of two values. " alt="" coords="517,5,559,32"/>
+<area shape="rect" id="node5" href="$df/d94/other__stuff_8c.html#a64905bcb2be886c8a6e078e424178972" title="Determine the larger of two values. " alt="" coords="515,56,561,83"/>
+</map>

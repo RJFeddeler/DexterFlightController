@@ -1,0 +1,5 @@
+<map id="ws2812_set_color" name="ws2812_set_color">
+<area shape="rect" id="node2" href="$da/d1e/ws2812_8h.html#a04364cbec378887f33449f975bcb976a" title="Update the specified section of the LED strip based on the animation options. " alt="" coords="180,5,299,32"/>
+<area shape="rect" id="node3" href="$da/d1e/ws2812_8h.html#a73f24f6e6ca22da75c93f8863e7e359f" title="Update loop to handle state switching and animation updates at set intervals. " alt="" coords="347,5,459,32"/>
+<area shape="rect" id="node4" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="507,5,557,32"/>
+</map>

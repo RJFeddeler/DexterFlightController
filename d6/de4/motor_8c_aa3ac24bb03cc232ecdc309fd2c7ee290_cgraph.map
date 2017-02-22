@@ -1,0 +1,5 @@
+<map id="motor_set" name="motor_set">
+<area shape="rect" id="node2" href="$df/d94/other__stuff_8c.html#a7b3ff1805d7e50020363b0fbb296430b" title="Make sure a value stays within a valid range between min and max. " alt="" coords="133,31,191,57"/>
+<area shape="rect" id="node3" href="$df/d94/other__stuff_8c.html#a224d6ae2826297b60e8898a8c4edbdcd" title="Determine the smaller of two values. " alt="" coords="241,5,283,32"/>
+<area shape="rect" id="node4" href="$df/d94/other__stuff_8c.html#a64905bcb2be886c8a6e078e424178972" title="Determine the larger of two values. " alt="" coords="239,56,285,83"/>
+</map>

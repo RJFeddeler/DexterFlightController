@@ -1,0 +1,6 @@
+<map id="bno055_init" name="bno055_init">
+<area shape="rect" id="node2" href="$d0/d88/bno055_8h.html#a394bafbaab8543e54d768917ac020259" title="Attempt to recover from a problem with the peripheral by resetting certain things depending on how lo..." alt="" coords="141,56,275,83"/>
+<area shape="rect" id="node5" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="557,81,608,108"/>
+<area shape="rect" id="node3" href="$d9/d05/bno055_8c.html#ac94fc5e78628ab5037170f7626ded1da" title="The interrupt handler receives the remaining I2C data at the end of the DMA transfer and resets the D..." alt="" coords="323,5,509,32"/>
+<area shape="rect" id="node4" href="$d0/d88/bno055_8h.html#ab8c48cf3122ef342fc4244cf47c5eb8c" title="Update loop to handle state switching, conversion from raw to cooked data, and error detection..." alt="" coords="361,56,471,83"/>
+</map>

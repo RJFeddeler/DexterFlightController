@@ -1,0 +1,4 @@
+<map id="state_rx_ready_to_arm" name="state_rx_ready_to_arm">
+<area shape="rect" id="node2" href="$db/d3b/state_8h.html#a96caac9788ac888d3f5ba39e91f0bee3" title="Update loop to handle state switching, failsafe and error handling, and sending the Drone Dashboard p..." alt="" coords="208,5,305,32"/>
+<area shape="rect" id="node3" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="353,5,404,32"/>
+</map>

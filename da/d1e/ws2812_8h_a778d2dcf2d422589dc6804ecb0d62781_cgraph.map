@@ -1,0 +1,5 @@
+<map id="ws2812_push_colors" name="ws2812_push_colors">
+<area shape="rect" id="node2" href="$dd/de3/clocks_8c.html#a55b8a8410927fd42677ff5ff28eeeb34" title="Initializes the timed_out function by setting the start time. " alt="" coords="196,5,299,32"/>
+<area shape="rect" id="node3" href="$dd/de3/clocks_8c.html#a612b56be2ae481fb4767a6e2d3cee6fd" title="Determines if a specified amount of time has passed in order to detect if a code sequence is taking t..." alt="" coords="208,56,287,83"/>
+<area shape="rect" id="node4" href="$dd/de3/clocks_8c.html#a80325e4278271f29c53518c551c315ba" title="Determines if a specified amount of time has passed in order to detect if a code sequence is taking t..." alt="" coords="347,56,447,83"/>
+</map>

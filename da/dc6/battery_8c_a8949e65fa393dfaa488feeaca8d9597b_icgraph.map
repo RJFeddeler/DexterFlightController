@@ -1,0 +1,4 @@
+<map id="battery_change_state" name="battery_change_state">
+<area shape="rect" id="node2" href="$d6/d69/battery_8h.html#a8863a34f1d166ade6638adaf9f2ee40f" title="Update loop to handle state switching and conversion from raw to cooked data. " alt="" coords="200,5,308,32"/>
+<area shape="rect" id="node3" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="356,5,407,32"/>
+</map>

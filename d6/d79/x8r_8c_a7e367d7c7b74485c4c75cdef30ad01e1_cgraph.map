@@ -1,0 +1,6 @@
+<map id="DMA2_Stream2_IRQHandler" name="DMA2_Stream2_IRQHandler">
+<area shape="rect" id="node2" href="$d0/dc9/state_8c.html#af2d4dc0f36fb57df43a3c998186b6cf9" title="Set a peripheral as calibrated. " alt="" coords="247,5,386,32"/>
+<area shape="rect" id="node3" href="$dd/de3/clocks_8c.html#a845c12da41e866f64654f14827b61cfa" title="Get the current tick count, with each tick representing a microsecond. " alt="" coords="257,56,377,83"/>
+<area shape="rect" id="node4" href="$dd/de3/clocks_8c.html#a55b8a8410927fd42677ff5ff28eeeb34" title="Initializes the timed_out function by setting the start time. " alt="" coords="265,107,368,133"/>
+<area shape="rect" id="node5" href="$d0/dc9/state_8c.html#a9ccf5fc74c5704bb833bfdd3669208b1" title="Set a peripheral as NOT calibrated. " alt="" coords="240,157,393,184"/>
+</map>

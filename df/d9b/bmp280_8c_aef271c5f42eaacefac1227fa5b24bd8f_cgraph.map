@@ -1,0 +1,5 @@
+<map id="bmp280_change_state" name="bmp280_change_state">
+<area shape="rect" id="node2" href="$d0/dc9/state_8c.html#af2d4dc0f36fb57df43a3c998186b6cf9" title="Set a peripheral as calibrated. " alt="" coords="217,5,355,32"/>
+<area shape="rect" id="node3" href="$d2/de2/3dmath_8c.html#a7f8ba6b65218f7376d8e43839213528e" title="Resets a vector back to (0.0f, 0.0f, 0.0f). " alt="" coords="242,56,330,83"/>
+<area shape="rect" id="node4" href="$df/d9b/bmp280_8c.html#a0a4b3ba072be39817d25b7b1bf084410" title="Configure the Kalman filter. " alt="" coords="207,107,365,133"/>
+</map>

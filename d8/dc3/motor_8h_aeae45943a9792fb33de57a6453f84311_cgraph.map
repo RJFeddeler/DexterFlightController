@@ -1,0 +1,7 @@
+<map id="motor_arm_all" name="motor_arm_all">
+<area shape="rect" id="node2" href="$d6/de4/motor_8c.html#ae778ab897f0759d8566e0aa4d76c968d" title="Set the pulse of every motor to the same given value. " alt="" coords="157,31,257,57"/>
+<area shape="rect" id="node3" href="$d6/de4/motor_8c.html#aa3ac24bb03cc232ecdc309fd2c7ee290" title="Set the speed of a given motor. " alt="" coords="305,31,385,57"/>
+<area shape="rect" id="node4" href="$df/d94/other__stuff_8c.html#a7b3ff1805d7e50020363b0fbb296430b" title="Make sure a value stays within a valid range between min and max. " alt="" coords="433,31,491,57"/>
+<area shape="rect" id="node5" href="$df/d94/other__stuff_8c.html#a224d6ae2826297b60e8898a8c4edbdcd" title="Determine the smaller of two values. " alt="" coords="541,5,583,32"/>
+<area shape="rect" id="node6" href="$df/d94/other__stuff_8c.html#a64905bcb2be886c8a6e078e424178972" title="Determine the larger of two values. " alt="" coords="539,56,585,83"/>
+</map>

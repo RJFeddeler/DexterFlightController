@@ -1,0 +1,10 @@
+<map id="abs" name="abs">
+<area shape="rect" id="node2" href="$db/d3b/state_8h.html#ad670211cd9fc68a0b5dbf04e72de076a" title="Determines if the radio sticks and switches are in position to arm the copter. " alt="" coords="96,5,251,32"/>
+<area shape="rect" id="node5" href="$db/d3b/state_8h.html#a1eb96933ea26fc01dd1d22e1e1e4bde8" title="Get the value of a radio transmitter switch position. " alt="" coords="104,57,243,98"/>
+<area shape="rect" id="node6" href="$db/d3b/state_8h.html#a7a495b9de780d3b1242f990e979e9df0" title="Go through an iteration of the PID control loop. " alt="" coords="131,123,216,149"/>
+<area shape="rect" id="node8" href="$da/d1e/ws2812_8h.html#a73f24f6e6ca22da75c93f8863e7e359f" title="Update loop to handle state switching and animation updates at set intervals. " alt="" coords="299,173,411,200"/>
+<area shape="rect" id="node9" href="$da/d1e/ws2812_8h.html#a04364cbec378887f33449f975bcb976a" title="Update the specified section of the LED strip based on the animation options. " alt="" coords="114,224,233,251"/>
+<area shape="rect" id="node3" href="$db/d3b/state_8h.html#a96caac9788ac888d3f5ba39e91f0bee3" title="Update loop to handle state switching, failsafe and error handling, and sending the Drone Dashboard p..." alt="" coords="306,64,403,91"/>
+<area shape="rect" id="node4" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="459,123,509,149"/>
+<area shape="rect" id="node7" href="$d8/dc3/motor_8h.html#a8198d81a9f7893c18f292202bf1893b8" title="Update loop to handle state switching and control implementation. " alt="" coords="304,123,405,149"/>
+</map>

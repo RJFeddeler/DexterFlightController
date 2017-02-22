@@ -1,0 +1,5 @@
+<map id="motor_arm_all" name="motor_arm_all">
+<area shape="rect" id="node2" href="$d8/dc3/motor_8h.html#a69c063e884eac85b934b4cf506276a61" title="Used to change settings, enable/disable features, or trigger actions when switching between two diffe..." alt="" coords="157,5,297,32"/>
+<area shape="rect" id="node3" href="$d8/dc3/motor_8h.html#a8198d81a9f7893c18f292202bf1893b8" title="Update loop to handle state switching and control implementation. " alt="" coords="345,5,447,32"/>
+<area shape="rect" id="node4" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="495,5,545,32"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="pid_set" name="pid_set">
+<area shape="rect" id="node2" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="301,5,352,32"/>
+<area shape="rect" id="node3" href="$db/d3b/state_8h.html#aa2ebb64a176f137bf91faa49368d4139" title="Initialize variables and prepare to begin normal operation. " alt="" coords="117,31,192,57"/>
+<area shape="rect" id="node4" href="$db/d3b/state_8h.html#aaf81fd6fefee630d1fc0ffefa56c0fd6" title="Set the PID gain coefficients of a PID structure to zero. " alt="" coords="119,81,190,108"/>
+<area shape="rect" id="node5" href="$db/d3b/state_8h.html#ae2c999fd98ae7623487fb7df69e064b6" title="Reset the variables used during the PID auto&#45;tune procedure. " alt="" coords="240,81,413,108"/>
+</map>

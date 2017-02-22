@@ -1,0 +1,3 @@
+<map id="motor_init" name="motor_init">
+<area shape="rect" id="node2" href="$d0/dc9/state_8c.html#ac944f1f0c22aa2b63af340559c9dd45f" title="Reset the PID gain coefficients and integral portion of the 3&#45;axis PID structure to zero..." alt="" coords="132,5,207,32"/>
+</map>

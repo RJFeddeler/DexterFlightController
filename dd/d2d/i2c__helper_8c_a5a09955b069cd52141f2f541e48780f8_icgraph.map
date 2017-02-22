@@ -1,0 +1,8 @@
+<map id="i2c_helper_unstick" name="i2c_helper_unstick">
+<area shape="rect" id="node2" href="$d1/de4/bmp280_8h.html#a9bfbdb5df64b461c003bef81af4a35fa" title="Enable clocks and configure GPIO pins B8 &amp; B9 as Alternate Function (I2C1). " alt="" coords="349,5,459,32"/>
+<area shape="rect" id="node4" href="$d0/d88/bno055_8h.html#a4767b45e7310c644186629c50b180e1a" title="Enable clocks, configure GPIO pins B10 &amp; B11 as Alternate Function (I2C2), configure DMA1_Stream2_Cha..." alt="" coords="184,56,289,83"/>
+<area shape="rect" id="node3" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="753,56,804,83"/>
+<area shape="rect" id="node5" href="$d0/d88/bno055_8h.html#a394bafbaab8543e54d768917ac020259" title="Attempt to recover from a problem with the peripheral by resetting certain things depending on how lo..." alt="" coords="337,107,471,133"/>
+<area shape="rect" id="node6" href="$d9/d05/bno055_8c.html#ac94fc5e78628ab5037170f7626ded1da" title="The interrupt handler receives the remaining I2C data at the end of the DMA transfer and resets the D..." alt="" coords="519,107,705,133"/>
+<area shape="rect" id="node7" href="$d0/d88/bno055_8h.html#ab8c48cf3122ef342fc4244cf47c5eb8c" title="Update loop to handle state switching, conversion from raw to cooked data, and error detection..." alt="" coords="557,157,667,184"/>
+</map>

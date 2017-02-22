@@ -1,0 +1,7 @@
+<map id="bmp280_config" name="bmp280_config">
+<area shape="rect" id="node2" href="$dd/d2d/i2c__helper_8c.html#a5a09955b069cd52141f2f541e48780f8" title="If an I2C bus freezes up or becomes unusable, then un&#45;sticking it may reset it to be usable again..." alt="" coords="163,31,293,57"/>
+<area shape="rect" id="node3" href="$dd/de3/clocks_8c.html#a55b8a8410927fd42677ff5ff28eeeb34" title="Initializes the timed_out function by setting the start time. " alt="" coords="468,5,571,32"/>
+<area shape="rect" id="node4" href="$dd/de3/clocks_8c.html#a612b56be2ae481fb4767a6e2d3cee6fd" title="Determines if a specified amount of time has passed in order to detect if a code sequence is taking t..." alt="" coords="341,81,420,108"/>
+<area shape="rect" id="node6" href="$dd/de3/clocks_8c.html#adca1b696913191bfa3de94c99ea8037b" title="Pauses code execution for a given amount of time in microseconds. " alt="" coords="343,31,418,57"/>
+<area shape="rect" id="node5" href="$dd/de3/clocks_8c.html#a80325e4278271f29c53518c551c315ba" title="Determines if a specified amount of time has passed in order to detect if a code sequence is taking t..." alt="" coords="469,68,569,95"/>
+</map>

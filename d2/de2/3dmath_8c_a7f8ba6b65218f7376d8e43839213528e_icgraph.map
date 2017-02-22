@@ -1,0 +1,10 @@
+<map id="vector_zero" name="vector_zero">
+<area shape="rect" id="node2" href="$d1/de4/bmp280_8h.html#a6c50557a33966747573ec95378843ee0" title="Initialize variables and prepare to begin normal operation. " alt="" coords="172,5,264,32"/>
+<area shape="rect" id="node4" href="$d1/de4/bmp280_8h.html#a0c7e1f3ca61db5fac98e999aefea1700" title="Update loop to handle state switching and conversion from raw to cooked data. " alt="" coords="343,56,457,83"/>
+<area shape="rect" id="node5" href="$d1/de4/bmp280_8h.html#aef271c5f42eaacefac1227fa5b24bd8f" title="Used to change settings, enable/disable features, or trigger actions when switching between two diffe..." alt="" coords="141,107,295,133"/>
+<area shape="rect" id="node6" href="$db/d3b/state_8h.html#ae0fd777dfc5b90bd4254bac0967d3c03" title="Reset the state parameters. " alt="" coords="175,157,261,184"/>
+<area shape="rect" id="node3" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="505,107,556,133"/>
+<area shape="rect" id="node7" href="$d0/d29/main_8c.html#ad5f4b240c6c505ba845290e2c29bca6e" title="error_state" alt="" coords="358,107,442,133"/>
+<area shape="rect" id="node8" href="$db/d3b/state_8h.html#aa2ebb64a176f137bf91faa49368d4139" title="Initialize variables and prepare to begin normal operation. " alt="" coords="363,157,437,184"/>
+<area shape="rect" id="node9" href="$db/d3b/state_8h.html#a96caac9788ac888d3f5ba39e91f0bee3" title="Update loop to handle state switching, failsafe and error handling, and sending the Drone Dashboard p..." alt="" coords="351,208,449,235"/>
+</map>

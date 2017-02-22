@@ -1,0 +1,8 @@
+<map id="quaternion_zero" name="quaternion_zero">
+<area shape="rect" id="node2" href="$db/d3b/state_8h.html#ae0fd777dfc5b90bd4254bac0967d3c03" title="Reset the state parameters. " alt="" coords="179,56,266,83"/>
+<area shape="rect" id="node7" href="$db/d3b/state_8h.html#a47b853f4c9a0a212d239cf30e7ff29fb" title="Reset a waypoint. " alt="" coords="168,107,277,133"/>
+<area shape="rect" id="node3" href="$d0/d29/main_8c.html#ad5f4b240c6c505ba845290e2c29bca6e" title="error_state" alt="" coords="332,5,416,32"/>
+<area shape="rect" id="node5" href="$db/d3b/state_8h.html#aa2ebb64a176f137bf91faa49368d4139" title="Initialize variables and prepare to begin normal operation. " alt="" coords="337,107,411,133"/>
+<area shape="rect" id="node6" href="$db/d3b/state_8h.html#a96caac9788ac888d3f5ba39e91f0bee3" title="Update loop to handle state switching, failsafe and error handling, and sending the Drone Dashboard p..." alt="" coords="325,56,423,83"/>
+<area shape="rect" id="node4" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="471,56,521,83"/>
+</map>

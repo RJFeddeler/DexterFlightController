@@ -1,0 +1,12 @@
+<map id="bno055_init" name="bno055_init">
+<area shape="rect" id="node2" href="$dd/de3/clocks_8c.html#a55b8a8410927fd42677ff5ff28eeeb34" title="Initializes the timed_out function by setting the start time. " alt="" coords="539,95,641,121"/>
+<area shape="rect" id="node3" href="$dd/d2d/i2c__helper_8c.html#a9cb963aed3a6e728570d3395364288ca" title="Read 1 byte from an I2C peripheral. " alt="" coords="142,157,287,184"/>
+<area shape="rect" id="node5" href="$dd/de3/clocks_8c.html#a612b56be2ae481fb4767a6e2d3cee6fd" title="Determines if a specified amount of time has passed in order to detect if a code sequence is taking t..." alt="" coords="551,152,629,179"/>
+<area shape="rect" id="node7" href="$dd/d2d/i2c__helper_8c.html#ad8f8a7b71ae4cd3e325067db3e0d57a1" title="Write 1 byte to an I2C peripheral. " alt="" coords="141,107,288,133"/>
+<area shape="rect" id="node9" href="$dd/de3/clocks_8c.html#abccf1850559310bf7bf693d79768eed7" title="Pauses code execution for a given amount of time in milliseconds. " alt="" coords="188,5,241,32"/>
+<area shape="rect" id="node11" href="$d9/d05/bno055_8c.html#a0f9dcd084ba89af0145fb0ebfe88e4a8" title="Set the orientation of the sensor by swapping the x, y, and z axes if necessary. " alt="" coords="145,259,284,285"/>
+<area shape="rect" id="node4" href="$dd/d2d/i2c__helper_8c.html#a69c250651e4e94c95214b39170123b24" title="Read a given number of bytes from an I2C peripheral. " alt="" coords="337,157,489,184"/>
+<area shape="rect" id="node6" href="$dd/de3/clocks_8c.html#a80325e4278271f29c53518c551c315ba" title="Determines if a specified amount of time has passed in order to detect if a code sequence is taking t..." alt="" coords="689,85,789,112"/>
+<area shape="rect" id="node8" href="$dd/d2d/i2c__helper_8c.html#ae002122c650a525a64f2cd95bbaba5ca" title="Write a given number of bytes to an I2C peripheral. " alt="" coords="336,107,491,133"/>
+<area shape="rect" id="node10" href="$dd/de3/clocks_8c.html#adca1b696913191bfa3de94c99ea8037b" title="Pauses code execution for a given amount of time in microseconds. " alt="" coords="376,5,451,32"/>
+</map>

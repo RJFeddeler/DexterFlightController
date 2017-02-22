@@ -1,0 +1,7 @@
+<map id="bno055_get_status" name="bno055_get_status">
+<area shape="rect" id="node2" href="$dd/d2d/i2c__helper_8c.html#a9cb963aed3a6e728570d3395364288ca" title="Read 1 byte from an I2C peripheral. " alt="" coords="185,31,331,57"/>
+<area shape="rect" id="node3" href="$dd/d2d/i2c__helper_8c.html#a69c250651e4e94c95214b39170123b24" title="Read a given number of bytes from an I2C peripheral. " alt="" coords="379,31,531,57"/>
+<area shape="rect" id="node4" href="$dd/de3/clocks_8c.html#a55b8a8410927fd42677ff5ff28eeeb34" title="Initializes the timed_out function by setting the start time. " alt="" coords="579,5,681,32"/>
+<area shape="rect" id="node5" href="$dd/de3/clocks_8c.html#a612b56be2ae481fb4767a6e2d3cee6fd" title="Determines if a specified amount of time has passed in order to detect if a code sequence is taking t..." alt="" coords="591,56,669,83"/>
+<area shape="rect" id="node6" href="$dd/de3/clocks_8c.html#a80325e4278271f29c53518c551c315ba" title="Determines if a specified amount of time has passed in order to detect if a code sequence is taking t..." alt="" coords="729,56,829,83"/>
+</map>

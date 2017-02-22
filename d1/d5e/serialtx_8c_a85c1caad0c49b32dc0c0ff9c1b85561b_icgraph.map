@@ -1,0 +1,8 @@
+<map id="serialtx_send" name="serialtx_send">
+<area shape="rect" id="node2" href="$d5/d60/serialtx_8h.html#aceb6d91be32b1693ef86a77964747a2f" title="Send a 32&#45;bit integer as string across the serial line. " alt="" coords="155,5,318,32"/>
+<area shape="rect" id="node5" href="$d5/d60/serialtx_8h.html#abb6092627b4c799b5f150ce360943f91" title="Send the values of the radio transmitter channels over the serial line. " alt="" coords="161,56,313,83"/>
+<area shape="rect" id="node6" href="$d5/d60/serialtx_8h.html#a5834aeaf9b6aae966b5f0257a6efb742" title="Send the Processing packet over the serial line for the Drone Dashboard. " alt="" coords="152,107,321,133"/>
+<area shape="rect" id="node7" href="$d5/d60/serialtx_8h.html#aacb2714f93ca0530d9d79ac571228f14" title="Send the Processing packet (including LED strip data) over the serial line for the Drone Dashboard..." alt="" coords="152,158,321,199"/>
+<area shape="rect" id="node3" href="$db/d3b/state_8h.html#a96caac9788ac888d3f5ba39e91f0bee3" title="Update loop to handle state switching, failsafe and error handling, and sending the Drone Dashboard p..." alt="" coords="369,107,467,133"/>
+<area shape="rect" id="node4" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="515,107,565,133"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="onboard_led_reset_all" name="onboard_led_reset_all">
+<area shape="rect" id="node2" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="333,5,384,32"/>
+<area shape="rect" id="node3" href="$d0/d29/main_8c.html#ad5f4b240c6c505ba845290e2c29bca6e" title="error_state" alt="" coords="201,31,285,57"/>
+</map>

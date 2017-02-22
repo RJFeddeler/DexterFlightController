@@ -1,0 +1,6 @@
+<map id="ws2812_copy_animation_options" name="ws2812_copy_animation_options">
+<area shape="rect" id="node2" href="$da/d1e/ws2812_8h.html#a3e452cd157f422c48ee3874e45fb9e56" title="Set the animation options for a given strip section and animation layer. " alt="" coords="217,5,372,47"/>
+<area shape="rect" id="node3" href="$da/d1e/ws2812_8h.html#a3881f9bb4934078e3f56a3bffc61ce62" title="Used to change settings, enable/disable features, or trigger actions when switching between two diffe..." alt="" coords="420,13,571,39"/>
+<area shape="rect" id="node4" href="$da/d1e/ws2812_8h.html#a73f24f6e6ca22da75c93f8863e7e359f" title="Update loop to handle state switching and animation updates at set intervals. " alt="" coords="619,13,731,39"/>
+<area shape="rect" id="node5" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="779,13,829,39"/>
+</map>

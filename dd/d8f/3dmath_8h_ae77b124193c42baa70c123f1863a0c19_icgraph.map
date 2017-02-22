@@ -1,0 +1,6 @@
+<map id="vector_add" name="vector_add">
+<area shape="rect" id="node2" href="$dd/d8f/3dmath_8h.html#ab32f399a510f7f889391345e0a98d7a3" title="Rotate a vector by a given quaternion. " alt="" coords="137,5,233,32"/>
+<area shape="rect" id="node3" href="$d0/d88/bno055_8h.html#a633e8d33e541faf7f06d848427b66a09" title="Compute the final cooked values from the parsed data. " alt="" coords="281,5,424,32"/>
+<area shape="rect" id="node4" href="$d0/d88/bno055_8h.html#ab8c48cf3122ef342fc4244cf47c5eb8c" title="Update loop to handle state switching, conversion from raw to cooked data, and error detection..." alt="" coords="472,5,583,32"/>
+<area shape="rect" id="node5" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="631,5,681,32"/>
+</map>

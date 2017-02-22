@@ -1,0 +1,14 @@
+<map id="ws2812_animate" name="ws2812_animate">
+<area shape="rect" id="node2" href="$dd/de3/clocks_8c.html#a845c12da41e866f64654f14827b61cfa" title="Get the current tick count, with each tick representing a microsecond. " alt="" coords="185,5,305,32"/>
+<area shape="rect" id="node3" href="$df/d94/other__stuff_8c.html#a7b3ff1805d7e50020363b0fbb296430b" title="Make sure a value stays within a valid range between min and max. " alt="" coords="414,132,471,159"/>
+<area shape="rect" id="node6" href="$d4/def/ws2812_8c.html#a376cb086c9ffc322247ccd93c8cff788" title="Copy the color data from one color structure to another. " alt="" coords="375,183,511,209"/>
+<area shape="rect" id="node7" href="$d4/def/ws2812_8c.html#a3f2c19d11ccaf547c7ecafb442648637" title="Get the color at a specified point blended between two other colors. " alt="" coords="186,309,305,336"/>
+<area shape="rect" id="node8" href="$d4/def/ws2812_8c.html#ac88e3b9292df62dc1df293a102e1319d" title="Get the color of a specified LED on the strip. " alt="" coords="182,107,309,133"/>
+<area shape="rect" id="node10" href="$d4/def/ws2812_8c.html#a35be9d22a77434b2fad0cd8fdb76479d" title="Determine if given AnimationOptions and layer length include an animation or not. ..." alt="" coords="172,360,319,387"/>
+<area shape="rect" id="node11" href="$df/d94/other__stuff_8c.html#a0f1e99ba7cca738089a7fd994bde9163" title="Make sure a floating&#45;point value stays within a valid range between min and max. " alt="" coords="413,233,473,260"/>
+<area shape="rect" id="node12" href="$df/d94/other__stuff_8c.html#ac6a4db1b1e3dff58fd419cf79d1cf50d" title="Get the absolute value of a number. " alt="" coords="224,411,267,437"/>
+<area shape="rect" id="node13" href="$d4/def/ws2812_8c.html#aeed64b9887db82e20cec79ba3e78c468" title="Set the color of a specified LED on the strip. " alt="" coords="182,157,309,184"/>
+<area shape="rect" id="node4" href="$df/d94/other__stuff_8c.html#a224d6ae2826297b60e8898a8c4edbdcd" title="Determine the smaller of two values. " alt="" coords="569,145,611,172"/>
+<area shape="rect" id="node5" href="$df/d94/other__stuff_8c.html#a64905bcb2be886c8a6e078e424178972" title="Determine the larger of two values. " alt="" coords="567,208,613,235"/>
+<area shape="rect" id="node9" href="$d4/def/ws2812_8c.html#ae0aafc0171605448b9608d8951aa5b4c" title="Fill a color structure with data based on a color name from the palette. " alt="" coords="367,66,519,107"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="ft_to_m" name="ft_to_m">
+<area shape="rect" id="node2" href="$d1/de4/bmp280_8h.html#a9df19b0d41bccbda1f54978c517102b3" title="Calculate the current altitude (in meters) based on the change in pressure. " alt="" coords="119,5,267,32"/>
+<area shape="rect" id="node3" href="$d1/de4/bmp280_8h.html#a0c7e1f3ca61db5fac98e999aefea1700" title="Update loop to handle state switching and conversion from raw to cooked data. " alt="" coords="315,5,429,32"/>
+<area shape="rect" id="node4" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="477,5,528,32"/>
+</map>

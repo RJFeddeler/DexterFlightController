@@ -1,0 +1,8 @@
+<map id="state_init" name="state_init">
+<area shape="rect" id="node2" href="$d0/dc9/state_8c.html#ae0fd777dfc5b90bd4254bac0967d3c03" title="Reset the state parameters. " alt="" coords="139,56,226,83"/>
+<area shape="rect" id="node6" href="$d0/dc9/state_8c.html#a47b853f4c9a0a212d239cf30e7ff29fb" title="Reset a waypoint. " alt="" coords="128,107,237,133"/>
+<area shape="rect" id="node7" href="$d0/dc9/state_8c.html#ada4575bf7cc2fcf7d0b9ff29372fa139" title="Set the PID gain coefficients of a PID structure. " alt="" coords="151,157,215,184"/>
+<area shape="rect" id="node3" href="$d2/de2/3dmath_8c.html#a7f8ba6b65218f7376d8e43839213528e" title="Resets a vector back to (0.0f, 0.0f, 0.0f). " alt="" coords="299,5,387,32"/>
+<area shape="rect" id="node4" href="$d2/de2/3dmath_8c.html#a0a02903a031a547f70748a8a9dd99c7f" title="Resets a quaternion back to (1.0f, 0.0f, 0.0f, 0.0f). " alt="" coords="285,107,400,133"/>
+<area shape="rect" id="node5" href="$d0/dc9/state_8c.html#ac944f1f0c22aa2b63af340559c9dd45f" title="Reset the PID gain coefficients and integral portion of the 3&#45;axis PID structure to zero..." alt="" coords="305,56,380,83"/>
+</map>

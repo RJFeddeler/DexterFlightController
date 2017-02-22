@@ -1,0 +1,12 @@
+<map id="i2c_helper_read_byte" name="i2c_helper_read_byte">
+<area shape="rect" id="node2" href="$d1/de4/bmp280_8h.html#a6c50557a33966747573ec95378843ee0" title="Initialize variables and prepare to begin normal operation. " alt="" coords="437,5,529,32"/>
+<area shape="rect" id="node4" href="$d0/d88/bno055_8h.html#af806f0aa9f12441ed6b8acd83017a8d1" title="Initialize variables and prepare to begin normal operation. " alt="" coords="226,107,314,133"/>
+<area shape="rect" id="node8" href="$d0/d88/bno055_8h.html#aba6bbb1c7975a758fda84e28494955b4" title="Reads how well calibrated the sensors of the peripheral are (0 to 100%). " alt="" coords="389,157,576,184"/>
+<area shape="rect" id="node9" href="$d0/d88/bno055_8h.html#a7d5cbfe40109146da9dd9cacc336ca37" title="Read the system status register. " alt="" coords="204,208,336,235"/>
+<area shape="rect" id="node10" href="$d3/d40/i2c__helper_8h.html#a808a2408b30460a4e0007fde5333ff8e" title="Write a given number of bits to an I2C peripheral. " alt="" coords="199,259,341,285"/>
+<area shape="rect" id="node3" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="859,56,909,83"/>
+<area shape="rect" id="node5" href="$d0/d88/bno055_8h.html#a394bafbaab8543e54d768917ac020259" title="Attempt to recover from a problem with the peripheral by resetting certain things depending on how lo..." alt="" coords="416,107,549,133"/>
+<area shape="rect" id="node6" href="$d9/d05/bno055_8c.html#ac94fc5e78628ab5037170f7626ded1da" title="The interrupt handler receives the remaining I2C data at the end of the DMA transfer and resets the D..." alt="" coords="624,107,811,133"/>
+<area shape="rect" id="node7" href="$d0/d88/bno055_8h.html#ab8c48cf3122ef342fc4244cf47c5eb8c" title="Update loop to handle state switching, conversion from raw to cooked data, and error detection..." alt="" coords="662,157,773,184"/>
+<area shape="rect" id="node11" href="$d3/d40/i2c__helper_8h.html#a841ae3a556f7429fa0c60f42f8ce5824" title="Write 1 bit to an I2C peripheral. " alt="" coords="415,259,551,285"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="clampf" name="clampf">
+<area shape="rect" id="node2" href="$d1/de4/bmp280_8h.html#a76c218b3b04636749a1ccb2b10f66e3d" title="Use a Kalman filter to fuse pressure and accelerometer data to greatly increase altitude estimation a..." alt="" coords="113,5,276,32"/>
+<area shape="rect" id="node5" href="$d8/df9/other__stuff_8h.html#ac72c785dbe0687ee780492e919d1451d" title="Convert a floating&#45;point value from one scale to another. " alt="" coords="167,56,223,83"/>
+<area shape="rect" id="node8" href="$da/d1e/ws2812_8h.html#a04364cbec378887f33449f975bcb976a" title="Update the specified section of the LED strip based on the animation options. " alt="" coords="135,107,254,133"/>
+<area shape="rect" id="node3" href="$d1/de4/bmp280_8h.html#a0c7e1f3ca61db5fac98e999aefea1700" title="Update loop to handle state switching and conversion from raw to cooked data. " alt="" coords="484,5,599,32"/>
+<area shape="rect" id="node4" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="647,56,697,83"/>
+<area shape="rect" id="node6" href="$db/d3b/state_8h.html#a7a495b9de780d3b1242f990e979e9df0" title="Go through an iteration of the PID control loop. " alt="" coords="337,56,423,83"/>
+<area shape="rect" id="node7" href="$d8/dc3/motor_8h.html#a8198d81a9f7893c18f292202bf1893b8" title="Update loop to handle state switching and control implementation. " alt="" coords="491,56,592,83"/>
+<area shape="rect" id="node9" href="$da/d1e/ws2812_8h.html#a73f24f6e6ca22da75c93f8863e7e359f" title="Update loop to handle state switching and animation updates at set intervals. " alt="" coords="324,107,436,133"/>
+</map>

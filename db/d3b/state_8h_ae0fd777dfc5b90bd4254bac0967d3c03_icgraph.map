@@ -1,0 +1,6 @@
+<map id="state_reset" name="state_reset">
+<area shape="rect" id="node2" href="$d0/d29/main_8c.html#ad5f4b240c6c505ba845290e2c29bca6e" title="error_state" alt="" coords="147,5,231,32"/>
+<area shape="rect" id="node4" href="$db/d3b/state_8h.html#aa2ebb64a176f137bf91faa49368d4139" title="Initialize variables and prepare to begin normal operation. " alt="" coords="151,56,226,83"/>
+<area shape="rect" id="node5" href="$db/d3b/state_8h.html#a96caac9788ac888d3f5ba39e91f0bee3" title="Update loop to handle state switching, failsafe and error handling, and sending the Drone Dashboard p..." alt="" coords="140,107,237,133"/>
+<area shape="rect" id="node3" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="285,56,336,83"/>
+</map>

@@ -1,0 +1,10 @@
+<map id="motor_change_state" name="motor_change_state">
+<area shape="rect" id="node2" href="$d6/de4/motor_8c.html#ab915294d51bf9cd1579cf13751e96ae5" title="Set the pulse of every motor to 0 (off). " alt="" coords="207,5,318,32"/>
+<area shape="rect" id="node3" href="$d6/de4/motor_8c.html#ae778ab897f0759d8566e0aa4d76c968d" title="Set the pulse of every motor to the same given value. " alt="" coords="380,56,480,83"/>
+<area shape="rect" id="node8" href="$d0/dc9/state_8c.html#af2d4dc0f36fb57df43a3c998186b6cf9" title="Set a peripheral as calibrated. " alt="" coords="193,107,332,133"/>
+<area shape="rect" id="node9" href="$d6/de4/motor_8c.html#aeae45943a9792fb33de57a6453f84311" title="Set the pulse of every motor to the arming pulse (off but non&#45;zero). " alt="" coords="211,157,315,184"/>
+<area shape="rect" id="node4" href="$d6/de4/motor_8c.html#aa3ac24bb03cc232ecdc309fd2c7ee290" title="Set the speed of a given motor. " alt="" coords="528,56,608,83"/>
+<area shape="rect" id="node5" href="$df/d94/other__stuff_8c.html#a7b3ff1805d7e50020363b0fbb296430b" title="Make sure a value stays within a valid range between min and max. " alt="" coords="656,56,713,83"/>
+<area shape="rect" id="node6" href="$df/d94/other__stuff_8c.html#a224d6ae2826297b60e8898a8c4edbdcd" title="Determine the smaller of two values. " alt="" coords="763,31,806,57"/>
+<area shape="rect" id="node7" href="$df/d94/other__stuff_8c.html#a64905bcb2be886c8a6e078e424178972" title="Determine the larger of two values. " alt="" coords="761,81,808,108"/>
+</map>

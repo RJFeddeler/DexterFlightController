@@ -1,0 +1,5 @@
+<map id="ws2812_reset_colorset" name="ws2812_reset_colorset">
+<area shape="rect" id="node2" href="$da/d1e/ws2812_8h.html#a55dc6870f79e3b46d8950d268948f815" title="Reset an animation to default settings (no animation). " alt="" coords="208,5,373,32"/>
+<area shape="rect" id="node3" href="$da/d1e/ws2812_8h.html#a34b1e67c119fe45d573a8d71142c019b" title="Initialize variables and prepare to begin normal operation. " alt="" coords="421,5,512,32"/>
+<area shape="rect" id="node4" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="560,5,611,32"/>
+</map>

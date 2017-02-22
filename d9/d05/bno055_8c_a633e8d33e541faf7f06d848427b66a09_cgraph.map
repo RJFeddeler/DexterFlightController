@@ -1,0 +1,7 @@
+<map id="bno055_cook_values" name="bno055_cook_values">
+<area shape="rect" id="node2" href="$d2/de2/3dmath_8c.html#ab32f399a510f7f889391345e0a98d7a3" title="Rotate a vector by a given quaternion. " alt="" coords="196,81,292,108"/>
+<area shape="rect" id="node3" href="$d2/de2/3dmath_8c.html#a6bf4e7c2ab6a14fe342d2da9e7f72c34" title="Scale a vector by a given scalar. " alt="" coords="365,5,460,32"/>
+<area shape="rect" id="node4" href="$d2/de2/3dmath_8c.html#adf182d7a0c3459e9a961d281e05f08c5" title="Compute the dot product of two vectors. " alt="" coords="347,56,478,83"/>
+<area shape="rect" id="node5" href="$d2/de2/3dmath_8c.html#a2350b19b9e8b9061f781ec4186868914" title="Compute the cross product of two vectors. " alt="" coords="340,107,485,133"/>
+<area shape="rect" id="node6" href="$d2/de2/3dmath_8c.html#ae77b124193c42baa70c123f1863a0c19" title="Compute the sum of two vectors. " alt="" coords="371,157,455,184"/>
+</map>

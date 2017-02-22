@@ -1,0 +1,36 @@
+<map id="min" name="min">
+<area shape="rect" id="node2" href="$d8/df9/other__stuff_8h.html#a241fc1e969f4f3583228876a7d0cfb34" title="Determine the smallest value in an array of values. " alt="" coords="96,175,175,201"/>
+<area shape="rect" id="node3" href="$d8/df9/other__stuff_8h.html#a7b3ff1805d7e50020363b0fbb296430b" title="Make sure a value stays within a valid range between min and max. " alt="" coords="107,473,164,500"/>
+<area shape="rect" id="node33" href="$d8/df9/other__stuff_8h.html#a0f1e99ba7cca738089a7fd994bde9163" title="Make sure a floating&#45;point value stays within a valid range between min and max. " alt="" coords="292,52,352,79"/>
+<area shape="rect" id="node4" href="$dc/d49/clocks_8h.html#a6bfa0b61c700896f296ad4490104b887" title="Determine if a specified amount of time has passed, which is useful for timing an event to execute at..." alt="" coords="843,164,1023,191"/>
+<area shape="rect" id="node14" href="$d8/dc3/motor_8h.html#adb0453c4f136ac6c6e8df1e7b4ce03d4" title="Applies the correct adjustments to each motor to reach desired attitude and position. " alt="" coords="670,381,765,408"/>
+<area shape="rect" id="node15" href="$d8/dc3/motor_8h.html#aa3ac24bb03cc232ecdc309fd2c7ee290" title="Set the speed of a given motor. " alt="" coords="282,305,362,332"/>
+<area shape="rect" id="node22" href="$d8/df9/other__stuff_8h.html#a7f5925d059a3e978e4b099d9275fa6fe" title="Convert a value from one scale to another. " alt="" coords="295,448,349,475"/>
+<area shape="rect" id="node24" href="$db/d3b/state_8h.html#a7a495b9de780d3b1242f990e979e9df0" title="Go through an iteration of the PID control loop. " alt="" coords="675,153,760,180"/>
+<area shape="rect" id="node25" href="$da/d1e/ws2812_8h.html#aa92ae24754eb8a0f6fb4684fe939c2e9" title="Fill up the DMA buffer by converting color data from the color array. " alt="" coords="855,676,1011,703"/>
+<area shape="rect" id="node26" href="$da/d1e/ws2812_8h.html#a04364cbec378887f33449f975bcb976a" title="Update the specified section of the LED strip based on the animation options. " alt="" coords="471,559,590,585"/>
+<area shape="rect" id="node27" href="$da/d1e/ws2812_8h.html#aeed64b9887db82e20cec79ba3e78c468" title="Set the color of a specified LED on the strip. " alt="" coords="259,549,385,576"/>
+<area shape="rect" id="node28" href="$da/d1e/ws2812_8h.html#ac88e3b9292df62dc1df293a102e1319d" title="Get the color of a specified LED on the strip. " alt="" coords="259,600,385,627"/>
+<area shape="rect" id="node29" href="$da/d1e/ws2812_8h.html#a5b61bb841f8b10919aa361e98bdbea4f" title="Set the overall maximum brightness level for all LEDs. " alt="" coords="223,752,421,779"/>
+<area shape="rect" id="node31" href="$da/d1e/ws2812_8h.html#a3e452cd157f422c48ee3874e45fb9e56" title="Set the animation options for a given strip section and animation layer. " alt="" coords="640,618,795,659"/>
+<area shape="rect" id="node5" href="$d6/d69/battery_8h.html#a8863a34f1d166ade6638adaf9f2ee40f" title="Update loop to handle state switching and conversion from raw to cooked data. " alt="" coords="1081,113,1189,140"/>
+<area shape="rect" id="node7" href="$d1/de4/bmp280_8h.html#a0c7e1f3ca61db5fac98e999aefea1700" title="Update loop to handle state switching and conversion from raw to cooked data. " alt="" coords="1077,12,1192,39"/>
+<area shape="rect" id="node8" href="$d0/d88/bno055_8h.html#ab8c48cf3122ef342fc4244cf47c5eb8c" title="Update loop to handle state switching, conversion from raw to cooked data, and error detection..." alt="" coords="1079,164,1190,191"/>
+<area shape="rect" id="node9" href="$d8/d5d/datalogger_8h.html#a3f1b6e25a7bb8eb5f78e1ad2d3d7936e" title="Update loop to handle state switching and .................. " alt="" coords="1071,215,1199,241"/>
+<area shape="rect" id="node10" href="$d2/def/hcsr05_8h.html#a5763e6b15048855d298f22451df93cd3" title="Update loop to handle state switching, starting and checking the signal, and conversion from raw to c..." alt="" coords="1081,265,1188,292"/>
+<area shape="rect" id="node11" href="$d8/dc3/motor_8h.html#a8198d81a9f7893c18f292202bf1893b8" title="Update loop to handle state switching and control implementation. " alt="" coords="1084,316,1185,343"/>
+<area shape="rect" id="node12" href="$db/d3b/state_8h.html#a96caac9788ac888d3f5ba39e91f0bee3" title="Update loop to handle state switching, failsafe and error handling, and sending the Drone Dashboard p..." alt="" coords="1086,63,1183,89"/>
+<area shape="rect" id="node13" href="$da/d1e/ws2812_8h.html#a73f24f6e6ca22da75c93f8863e7e359f" title="Update loop to handle state switching and animation updates at set intervals. " alt="" coords="1079,533,1191,560"/>
+<area shape="rect" id="node6" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="1247,215,1297,241"/>
+<area shape="rect" id="node16" href="$d8/dc3/motor_8h.html#ae778ab897f0759d8566e0aa4d76c968d" title="Set the pulse of every motor to the same given value. " alt="" coords="481,204,581,231"/>
+<area shape="rect" id="node20" href="$d8/dc3/motor_8h.html#a076ac19869954f96a8034f6d9a6edab6" title="Set the pulse of a given motor to 0 (off). " alt="" coords="485,305,576,332"/>
+<area shape="rect" id="node21" href="$d8/dc3/motor_8h.html#a09196c8fd546c0e297496d0858272464" title="Set the pulse of a given motor to the arming pulse (off but non&#45;zero). " alt="" coords="489,255,573,281"/>
+<area shape="rect" id="node17" href="$d8/dc3/motor_8h.html#a69c063e884eac85b934b4cf506276a61" title="Used to change settings, enable/disable features, or trigger actions when switching between two diffe..." alt="" coords="863,303,1003,329"/>
+<area shape="rect" id="node18" href="$d8/dc3/motor_8h.html#ab915294d51bf9cd1579cf13751e96ae5" title="Set the pulse of every motor to 0 (off). " alt="" coords="662,204,773,231"/>
+<area shape="rect" id="node19" href="$d8/dc3/motor_8h.html#aeae45943a9792fb33de57a6453f84311" title="Set the pulse of every motor to the arming pulse (off but non&#45;zero). " alt="" coords="665,255,769,281"/>
+<area shape="rect" id="node23" href="$db/d3b/state_8h.html#ab40e643ee58137754cfcb6f13b66d7f0" title="Get the current throttle value based on mode and radio transmitter stick position. " alt="" coords="469,457,592,484"/>
+<area shape="rect" id="node30" href="$da/d1e/ws2812_8h.html#a34b1e67c119fe45d573a8d71142c019b" title="Initialize variables and prepare to begin normal operation. " alt="" coords="672,752,763,779"/>
+<area shape="rect" id="node32" href="$da/d1e/ws2812_8h.html#a3881f9bb4934078e3f56a3bffc61ce62" title="Used to change settings, enable/disable features, or trigger actions when switching between two diffe..." alt="" coords="857,615,1008,641"/>
+<area shape="rect" id="node34" href="$d1/de4/bmp280_8h.html#a76c218b3b04636749a1ccb2b10f66e3d" title="Use a Kalman filter to fuse pressure and accelerometer data to greatly increase altitude estimation a..." alt="" coords="851,5,1014,32"/>
+<area shape="rect" id="node35" href="$d8/df9/other__stuff_8h.html#ac72c785dbe0687ee780492e919d1451d" title="Convert a floating&#45;point value from one scale to another. " alt="" coords="503,52,559,79"/>
+</map>

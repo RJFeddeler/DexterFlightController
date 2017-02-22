@@ -1,0 +1,5 @@
+<map id="ws2812_reset_animation" name="ws2812_reset_animation">
+<area shape="rect" id="node2" href="$d4/def/ws2812_8c.html#a967552b9cebe0012138e69210571acf4" title="Reset the data in a specified ColorSet to default color and brightness values. " alt="" coords="219,42,373,69"/>
+<area shape="rect" id="node3" href="$d4/def/ws2812_8c.html#ae0aafc0171605448b9608d8951aa5b4c" title="Fill a color structure with data based on a color name from the palette. " alt="" coords="421,5,573,47"/>
+<area shape="rect" id="node4" href="$d4/def/ws2812_8c.html#a376cb086c9ffc322247ccd93c8cff788" title="Copy the color data from one color structure to another. " alt="" coords="429,71,565,98"/>
+</map>

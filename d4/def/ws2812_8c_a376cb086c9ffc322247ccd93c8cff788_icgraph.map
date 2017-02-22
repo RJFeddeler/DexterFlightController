@@ -1,0 +1,14 @@
+<map id="ws2812_copy_color" name="ws2812_copy_color">
+<area shape="rect" id="node2" href="$da/d1e/ws2812_8h.html#a04364cbec378887f33449f975bcb976a" title="Update the specified section of the LED strip based on the animation options. " alt="" coords="422,81,541,108"/>
+<area shape="rect" id="node5" href="$da/d1e/ws2812_8h.html#aeed64b9887db82e20cec79ba3e78c468" title="Set the color of a specified LED on the strip. " alt="" coords="207,107,333,133"/>
+<area shape="rect" id="node6" href="$da/d1e/ws2812_8h.html#ac88e3b9292df62dc1df293a102e1319d" title="Get the color of a specified LED on the strip. " alt="" coords="207,5,333,32"/>
+<area shape="rect" id="node7" href="$da/d1e/ws2812_8h.html#a9c0222f9dd8e2f67c15302f086d3dbc6" title="Set all the LEDs on the strip to the default color and brightness. " alt="" coords="399,259,563,285"/>
+<area shape="rect" id="node9" href="$da/d1e/ws2812_8h.html#a54e11c0752cab7a150e9ae66969ece3b" title="Fill in the specified ColorSet data for the arm with the given color information. ..." alt="" coords="201,157,339,184"/>
+<area shape="rect" id="node11" href="$da/d1e/ws2812_8h.html#a967552b9cebe0012138e69210571acf4" title="Reset the data in a specified ColorSet to default color and brightness values. " alt="" coords="193,208,347,235"/>
+<area shape="rect" id="node13" href="$da/d1e/ws2812_8h.html#a910bb8d4045cc0e95a8253103747e2fb" title="Fill in the array color data for the Drone Dashboard Processing packet. " alt="" coords="189,309,351,336"/>
+<area shape="rect" id="node3" href="$da/d1e/ws2812_8h.html#a73f24f6e6ca22da75c93f8863e7e359f" title="Update loop to handle state switching and animation updates at set intervals. " alt="" coords="612,157,724,184"/>
+<area shape="rect" id="node4" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="772,183,823,209"/>
+<area shape="rect" id="node8" href="$da/d1e/ws2812_8h.html#a34b1e67c119fe45d573a8d71142c019b" title="Initialize variables and prepare to begin normal operation. " alt="" coords="623,208,713,235"/>
+<area shape="rect" id="node10" href="$da/d1e/ws2812_8h.html#a3881f9bb4934078e3f56a3bffc61ce62" title="Used to change settings, enable/disable features, or trigger actions when switching between two diffe..." alt="" coords="406,157,557,184"/>
+<area shape="rect" id="node12" href="$da/d1e/ws2812_8h.html#a55dc6870f79e3b46d8950d268948f815" title="Reset an animation to default settings (no animation). " alt="" coords="399,208,564,235"/>
+</map>

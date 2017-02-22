@@ -1,0 +1,29 @@
+<map id="ws2812_update" name="ws2812_update">
+<area shape="rect" id="node2" href="$d4/def/ws2812_8c.html#a3881f9bb4934078e3f56a3bffc61ce62" title="Used to change settings, enable/disable features, or trigger actions when switching between two diffe..." alt="" coords="180,115,331,141"/>
+<area shape="rect" id="node14" href="$df/d94/other__stuff_8c.html#a7f5925d059a3e978e4b099d9275fa6fe" title="Convert a value from one scale to another. " alt="" coords="229,256,282,283"/>
+<area shape="rect" id="node15" href="$d4/def/ws2812_8c.html#a04364cbec378887f33449f975bcb976a" title="Update the specified section of the LED strip based on the animation options. " alt="" coords="196,553,315,580"/>
+<area shape="rect" id="node16" href="$dd/de3/clocks_8c.html#a845c12da41e866f64654f14827b61cfa" title="Get the current tick count, with each tick representing a microsecond. " alt="" coords="411,376,531,403"/>
+<area shape="rect" id="node21" href="$df/d94/other__stuff_8c.html#ac6a4db1b1e3dff58fd419cf79d1cf50d" title="Get the absolute value of a number. " alt="" coords="449,781,492,808"/>
+<area shape="rect" id="node23" href="$dd/de3/clocks_8c.html#a6bfa0b61c700896f296ad4490104b887" title="Determine if a specified amount of time has passed, which is useful for timing an event to execute at..." alt="" coords="165,199,345,225"/>
+<area shape="rect" id="node24" href="$d4/def/ws2812_8c.html#aa92ae24754eb8a0f6fb4684fe939c2e9" title="Fill up the DMA buffer by converting color data from the color array. " alt="" coords="177,319,333,345"/>
+<area shape="rect" id="node25" href="$d4/def/ws2812_8c.html#a778d2dcf2d422589dc6804ecb0d62781" title="Start the DMA to transmit the color data to the LED strip. " alt="" coords="184,832,327,859"/>
+<area shape="rect" id="node3" href="$d0/dc9/state_8c.html#af2d4dc0f36fb57df43a3c998186b6cf9" title="Set a peripheral as calibrated. " alt="" coords="401,5,540,32"/>
+<area shape="rect" id="node4" href="$d4/def/ws2812_8c.html#a54e11c0752cab7a150e9ae66969ece3b" title="Fill in the specified ColorSet data for the arm with the given color information. ..." alt="" coords="401,325,540,352"/>
+<area shape="rect" id="node7" href="$d4/def/ws2812_8c.html#aee23b39509d339da57bab33bfb7ae831" title="Set the ColorSet of a specified strip section and animation layer to a previously filled in ColorSet ..." alt="" coords="399,56,543,83"/>
+<area shape="rect" id="node9" href="$d4/def/ws2812_8c.html#a3e452cd157f422c48ee3874e45fb9e56" title="Set the animation options for a given strip section and animation layer. " alt="" coords="393,107,548,149"/>
+<area shape="rect" id="node5" href="$d4/def/ws2812_8c.html#a376cb086c9ffc322247ccd93c8cff788" title="Copy the color data from one color structure to another. " alt="" coords="610,536,746,563"/>
+<area shape="rect" id="node6" href="$d4/def/ws2812_8c.html#ae0aafc0171605448b9608d8951aa5b4c" title="Fill a color structure with data based on a color name from the palette. " alt="" coords="602,470,754,511"/>
+<area shape="rect" id="node8" href="$d4/def/ws2812_8c.html#aeb500a10f15f3889f00587662292c181" title="Copy the data from one ColorSet to another. " alt="" coords="601,56,755,83"/>
+<area shape="rect" id="node10" href="$df/d94/other__stuff_8c.html#a7b3ff1805d7e50020363b0fbb296430b" title="Make sure a value stays within a valid range between min and max. " alt="" coords="649,419,707,445"/>
+<area shape="rect" id="node13" href="$d4/def/ws2812_8c.html#a6bc606991eee29c39990d7d2c991de74" title="Copy the animation options from one location to another. " alt="" coords="596,107,760,149"/>
+<area shape="rect" id="node11" href="$df/d94/other__stuff_8c.html#a224d6ae2826297b60e8898a8c4edbdcd" title="Determine the smaller of two values. " alt="" coords="810,448,853,475"/>
+<area shape="rect" id="node12" href="$df/d94/other__stuff_8c.html#a64905bcb2be886c8a6e078e424178972" title="Determine the larger of two values. " alt="" coords="808,528,855,555"/>
+<area shape="rect" id="node17" href="$d4/def/ws2812_8c.html#a3f2c19d11ccaf547c7ecafb442648637" title="Get the color at a specified point blended between two other colors. " alt="" coords="411,477,530,504"/>
+<area shape="rect" id="node18" href="$d4/def/ws2812_8c.html#ac88e3b9292df62dc1df293a102e1319d" title="Get the color of a specified LED on the strip. " alt="" coords="407,579,534,605"/>
+<area shape="rect" id="node19" href="$d4/def/ws2812_8c.html#a35be9d22a77434b2fad0cd8fdb76479d" title="Determine if given AnimationOptions and layer length include an animation or not. ..." alt="" coords="397,629,544,656"/>
+<area shape="rect" id="node20" href="$df/d94/other__stuff_8c.html#a0f1e99ba7cca738089a7fd994bde9163" title="Make sure a floating&#45;point value stays within a valid range between min and max. " alt="" coords="648,587,708,613"/>
+<area shape="rect" id="node22" href="$d4/def/ws2812_8c.html#aeed64b9887db82e20cec79ba3e78c468" title="Set the color of a specified LED on the strip. " alt="" coords="407,528,534,555"/>
+<area shape="rect" id="node26" href="$dd/de3/clocks_8c.html#a55b8a8410927fd42677ff5ff28eeeb34" title="Initializes the timed_out function by setting the start time. " alt="" coords="419,832,522,859"/>
+<area shape="rect" id="node27" href="$dd/de3/clocks_8c.html#a612b56be2ae481fb4767a6e2d3cee6fd" title="Determines if a specified amount of time has passed in order to detect if a code sequence is taking t..." alt="" coords="431,883,510,909"/>
+<area shape="rect" id="node28" href="$dd/de3/clocks_8c.html#a80325e4278271f29c53518c551c315ba" title="Determines if a specified amount of time has passed in order to detect if a code sequence is taking t..." alt="" coords="628,883,728,909"/>
+</map>

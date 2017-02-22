@@ -1,0 +1,21 @@
+<map id="motor_update" name="motor_update">
+<area shape="rect" id="node2" href="$dd/de3/clocks_8c.html#a6bfa0b61c700896f296ad4490104b887" title="Determine if a specified amount of time has passed, which is useful for timing an event to execute at..." alt="" coords="155,245,335,272"/>
+<area shape="rect" id="node6" href="$d6/de4/motor_8c.html#a69c063e884eac85b934b4cf506276a61" title="Used to change settings, enable/disable features, or trigger actions when switching between two diffe..." alt="" coords="175,157,315,184"/>
+<area shape="rect" id="node12" href="$d0/dc9/state_8c.html#a7a495b9de780d3b1242f990e979e9df0" title="Go through an iteration of the PID control loop. " alt="" coords="588,360,673,387"/>
+<area shape="rect" id="node18" href="$d6/de4/motor_8c.html#adb0453c4f136ac6c6e8df1e7b4ce03d4" title="Applies the correct adjustments to each motor to reach desired attitude and position. " alt="" coords="405,5,499,32"/>
+<area shape="rect" id="node3" href="$df/d94/other__stuff_8c.html#a7b3ff1805d7e50020363b0fbb296430b" title="Make sure a value stays within a valid range between min and max. " alt="" coords="909,196,967,223"/>
+<area shape="rect" id="node4" href="$df/d94/other__stuff_8c.html#a224d6ae2826297b60e8898a8c4edbdcd" title="Determine the smaller of two values. " alt="" coords="1018,247,1061,273"/>
+<area shape="rect" id="node5" href="$df/d94/other__stuff_8c.html#a64905bcb2be886c8a6e078e424178972" title="Determine the larger of two values. " alt="" coords="1016,196,1063,223"/>
+<area shape="rect" id="node7" href="$d6/de4/motor_8c.html#ab915294d51bf9cd1579cf13751e96ae5" title="Set the pulse of every motor to 0 (off). " alt="" coords="397,157,507,184"/>
+<area shape="rect" id="node8" href="$d6/de4/motor_8c.html#ae778ab897f0759d8566e0aa4d76c968d" title="Set the pulse of every motor to the same given value. " alt="" coords="581,157,681,184"/>
+<area shape="rect" id="node10" href="$d0/dc9/state_8c.html#af2d4dc0f36fb57df43a3c998186b6cf9" title="Set a peripheral as calibrated. " alt="" coords="383,107,521,133"/>
+<area shape="rect" id="node11" href="$d6/de4/motor_8c.html#aeae45943a9792fb33de57a6453f84311" title="Set the pulse of every motor to the arming pulse (off but non&#45;zero). " alt="" coords="400,208,504,235"/>
+<area shape="rect" id="node9" href="$d6/de4/motor_8c.html#aa3ac24bb03cc232ecdc309fd2c7ee290" title="Set the speed of a given motor. " alt="" coords="760,157,840,184"/>
+<area shape="rect" id="node13" href="$df/d94/other__stuff_8c.html#ac6a4db1b1e3dff58fd419cf79d1cf50d" title="Get the absolute value of a number. " alt="" coords="779,335,821,361"/>
+<area shape="rect" id="node14" href="$df/d94/other__stuff_8c.html#ac72c785dbe0687ee780492e919d1451d" title="Convert a floating&#45;point value from one scale to another. " alt="" coords="772,487,828,513"/>
+<area shape="rect" id="node16" href="$df/d94/other__stuff_8c.html#a0caedf3a4dc2a32e1c1ddf80b973ab17" title="Get the absolute value of a floating&#45;point number. " alt="" coords="773,385,827,412"/>
+<area shape="rect" id="node17" href="$dd/de3/clocks_8c.html#a845c12da41e866f64654f14827b61cfa" title="Get the current tick count, with each tick representing a microsecond. " alt="" coords="740,436,860,463"/>
+<area shape="rect" id="node15" href="$df/d94/other__stuff_8c.html#a0f1e99ba7cca738089a7fd994bde9163" title="Make sure a floating&#45;point value stays within a valid range between min and max. " alt="" coords="908,247,968,273"/>
+<area shape="rect" id="node19" href="$d0/dc9/state_8c.html#ab40e643ee58137754cfcb6f13b66d7f0" title="Get the current throttle value based on mode and radio transmitter stick position. " alt="" coords="569,5,692,32"/>
+<area shape="rect" id="node20" href="$df/d94/other__stuff_8c.html#a7f5925d059a3e978e4b099d9275fa6fe" title="Convert a value from one scale to another. " alt="" coords="773,5,827,32"/>
+</map>

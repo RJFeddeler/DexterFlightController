@@ -1,0 +1,4 @@
+<map id="state_autotune_reset_test" name="state_autotune_reset_test">
+<area shape="rect" id="node2" href="$d0/dc9/state_8c.html#aaf81fd6fefee630d1fc0ffefa56c0fd6" title="Set the PID gain coefficients of a PID structure to zero. " alt="" coords="227,5,297,32"/>
+<area shape="rect" id="node3" href="$d0/dc9/state_8c.html#ada4575bf7cc2fcf7d0b9ff29372fa139" title="Set the PID gain coefficients of a PID structure. " alt="" coords="345,5,409,32"/>
+</map>

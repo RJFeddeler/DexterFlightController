@@ -1,0 +1,12 @@
+<map id="i2c_helper_write_bytes" name="i2c_helper_write_bytes">
+<area shape="rect" id="node2" href="$d3/d40/i2c__helper_8h.html#ad8f8a7b71ae4cd3e325067db3e0d57a1" title="Write 1 byte to an I2C peripheral. " alt="" coords="209,69,356,96"/>
+<area shape="rect" id="node11" href="$d3/d40/i2c__helper_8h.html#a265bb45a9a464748d30c123801724635" title="Write a word (2 bytes) to an I2C peripheral. " alt="" coords="208,120,357,147"/>
+<area shape="rect" id="node3" href="$d1/de4/bmp280_8h.html#a6c50557a33966747573ec95378843ee0" title="Initialize variables and prepare to begin normal operation. " alt="" coords="618,5,710,32"/>
+<area shape="rect" id="node5" href="$d0/d88/bno055_8h.html#af806f0aa9f12441ed6b8acd83017a8d1" title="Initialize variables and prepare to begin normal operation. " alt="" coords="433,69,521,96"/>
+<area shape="rect" id="node9" href="$d3/d40/i2c__helper_8h.html#a808a2408b30460a4e0007fde5333ff8e" title="Write a given number of bits to an I2C peripheral. " alt="" coords="405,132,548,159"/>
+<area shape="rect" id="node4" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="1015,56,1065,83"/>
+<area shape="rect" id="node6" href="$d0/d88/bno055_8h.html#a394bafbaab8543e54d768917ac020259" title="Attempt to recover from a problem with the peripheral by resetting certain things depending on how lo..." alt="" coords="597,107,731,133"/>
+<area shape="rect" id="node7" href="$d9/d05/bno055_8c.html#ac94fc5e78628ab5037170f7626ded1da" title="The interrupt handler receives the remaining I2C data at the end of the DMA transfer and resets the D..." alt="" coords="780,107,967,133"/>
+<area shape="rect" id="node8" href="$d0/d88/bno055_8h.html#ab8c48cf3122ef342fc4244cf47c5eb8c" title="Update loop to handle state switching, conversion from raw to cooked data, and error detection..." alt="" coords="818,157,929,184"/>
+<area shape="rect" id="node10" href="$d3/d40/i2c__helper_8h.html#a841ae3a556f7429fa0c60f42f8ce5824" title="Write 1 bit to an I2C peripheral. " alt="" coords="596,157,732,184"/>
+</map>

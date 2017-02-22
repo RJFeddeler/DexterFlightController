@@ -1,0 +1,11 @@
+<map id="motor_set" name="motor_set">
+<area shape="rect" id="node2" href="$d8/dc3/motor_8h.html#adb0453c4f136ac6c6e8df1e7b4ce03d4" title="Applies the correct adjustments to each motor to reach desired attitude and position. " alt="" coords="463,5,557,32"/>
+<area shape="rect" id="node5" href="$d8/dc3/motor_8h.html#ae778ab897f0759d8566e0aa4d76c968d" title="Set the pulse of every motor to the same given value. " alt="" coords="133,68,233,95"/>
+<area shape="rect" id="node9" href="$d8/dc3/motor_8h.html#a076ac19869954f96a8034f6d9a6edab6" title="Set the pulse of a given motor to 0 (off). " alt="" coords="138,119,229,145"/>
+<area shape="rect" id="node10" href="$d8/dc3/motor_8h.html#a09196c8fd546c0e297496d0858272464" title="Set the pulse of a given motor to the arming pulse (off but non&#45;zero). " alt="" coords="141,169,225,196"/>
+<area shape="rect" id="node3" href="$d8/dc3/motor_8h.html#a8198d81a9f7893c18f292202bf1893b8" title="Update loop to handle state switching and control implementation. " alt="" coords="628,44,729,71"/>
+<area shape="rect" id="node4" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="777,44,828,71"/>
+<area shape="rect" id="node6" href="$d8/dc3/motor_8h.html#a69c063e884eac85b934b4cf506276a61" title="Used to change settings, enable/disable features, or trigger actions when switching between two diffe..." alt="" coords="440,81,580,108"/>
+<area shape="rect" id="node7" href="$d8/dc3/motor_8h.html#ab915294d51bf9cd1579cf13751e96ae5" title="Set the pulse of every motor to 0 (off). " alt="" coords="281,93,392,120"/>
+<area shape="rect" id="node8" href="$d8/dc3/motor_8h.html#aeae45943a9792fb33de57a6453f84311" title="Set the pulse of every motor to the arming pulse (off but non&#45;zero). " alt="" coords="285,144,389,171"/>
+</map>

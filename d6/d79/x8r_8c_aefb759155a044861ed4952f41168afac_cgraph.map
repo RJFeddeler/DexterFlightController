@@ -1,0 +1,7 @@
+<map id="x8r_update" name="x8r_update">
+<area shape="rect" id="node2" href="$d6/d79/x8r_8c.html#aa36fe91ebf21c054d2a1df6d7633315e" title="Used to change settings, enable/disable features, or trigger actions when switching between two diffe..." alt="" coords="140,5,265,32"/>
+<area shape="rect" id="node3" href="$d6/d79/x8r_8c.html#a959c6f92d3fe8cfb9705fa74cd542acc" title="Parse the frame buffer and store values in the channel array. " alt="" coords="143,56,262,83"/>
+<area shape="rect" id="node4" href="$dd/de3/clocks_8c.html#a612b56be2ae481fb4767a6e2d3cee6fd" title="Determines if a specified amount of time has passed in order to detect if a code sequence is taking t..." alt="" coords="163,107,242,133"/>
+<area shape="rect" id="node6" href="$dd/de3/clocks_8c.html#a55b8a8410927fd42677ff5ff28eeeb34" title="Initializes the timed_out function by setting the start time. " alt="" coords="151,157,254,184"/>
+<area shape="rect" id="node5" href="$dd/de3/clocks_8c.html#a80325e4278271f29c53518c551c315ba" title="Determines if a specified amount of time has passed in order to detect if a code sequence is taking t..." alt="" coords="313,107,413,133"/>
+</map>

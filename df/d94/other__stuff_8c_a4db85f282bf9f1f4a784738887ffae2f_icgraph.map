@@ -1,0 +1,7 @@
+<map id="power" name="power">
+<area shape="rect" id="node2" href="$d8/df9/other__stuff_8h.html#a4db85f282bf9f1f4a784738887ffae2f" title="Calculate the value of a number raised to a given power. " alt="" coords="109,48,165,75"/>
+<area shape="rect" id="node3" href="$d5/d60/serialtx_8h.html#aceb6d91be32b1693ef86a77964747a2f" title="Send a 32&#45;bit integer as string across the serial line. " alt="" coords="213,23,376,50"/>
+<area shape="rect" id="node6" href="$d5/d60/serialtx_8h.html#abb6092627b4c799b5f150ce360943f91" title="Send the values of the radio transmitter channels over the serial line. " alt="" coords="219,86,371,112"/>
+<area shape="rect" id="node4" href="$db/d3b/state_8h.html#a96caac9788ac888d3f5ba39e91f0bee3" title="Update loop to handle state switching, failsafe and error handling, and sending the Drone Dashboard p..." alt="" coords="424,23,521,50"/>
+<area shape="rect" id="node5" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="569,23,620,50"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="ws2812_get_color" name="ws2812_get_color">
+<area shape="rect" id="node2" href="$d4/def/ws2812_8c.html#ae0aafc0171605448b9608d8951aa5b4c" title="Fill a color structure with data based on a color name from the palette. " alt="" coords="180,5,332,47"/>
+<area shape="rect" id="node3" href="$df/d94/other__stuff_8c.html#a7b3ff1805d7e50020363b0fbb296430b" title="Make sure a value stays within a valid range between min and max. " alt="" coords="227,71,285,98"/>
+<area shape="rect" id="node6" href="$d4/def/ws2812_8c.html#a376cb086c9ffc322247ccd93c8cff788" title="Copy the color data from one color structure to another. " alt="" coords="188,122,324,149"/>
+<area shape="rect" id="node4" href="$df/d94/other__stuff_8c.html#a224d6ae2826297b60e8898a8c4edbdcd" title="Determine the smaller of two values. " alt="" coords="382,46,425,73"/>
+<area shape="rect" id="node5" href="$df/d94/other__stuff_8c.html#a64905bcb2be886c8a6e078e424178972" title="Determine the larger of two values. " alt="" coords="380,97,427,123"/>
+</map>

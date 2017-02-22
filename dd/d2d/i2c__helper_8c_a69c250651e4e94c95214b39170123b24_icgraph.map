@@ -1,0 +1,17 @@
+<map id="i2c_helper_read_bytes" name="i2c_helper_read_bytes">
+<area shape="rect" id="node2" href="$d1/de4/bmp280_8h.html#a5531f568e787ec3b475b424f42506248" title="Get the raw data values from the sensor for temperature and pressure. " alt="" coords="225,31,384,57"/>
+<area shape="rect" id="node5" href="$d1/de4/bmp280_8h.html#adce8ce0825c67ea434b64fc68d9589e0" title="Read the sensor specific offsets set by the manufacturer to be used when compensating raw values..." alt="" coords="205,107,404,133"/>
+<area shape="rect" id="node7" href="$d3/d40/i2c__helper_8h.html#a9cb963aed3a6e728570d3395364288ca" title="Read 1 byte from an I2C peripheral. " alt="" coords="232,157,377,184"/>
+<area shape="rect" id="node16" href="$d3/d40/i2c__helper_8h.html#a679f63c45f80fa756ec193e730fb072e" title="Read a word (2 bytes) from an I2C peripheral. " alt="" coords="231,208,378,235"/>
+<area shape="rect" id="node3" href="$d1/de4/bmp280_8h.html#a0c7e1f3ca61db5fac98e999aefea1700" title="Update loop to handle state switching and conversion from raw to cooked data. " alt="" coords="679,5,793,32"/>
+<area shape="rect" id="node4" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="1112,81,1163,108"/>
+<area shape="rect" id="node6" href="$d1/de4/bmp280_8h.html#a6c50557a33966747573ec95378843ee0" title="Initialize variables and prepare to begin normal operation. " alt="" coords="477,107,569,133"/>
+<area shape="rect" id="node8" href="$d0/d88/bno055_8h.html#af806f0aa9f12441ed6b8acd83017a8d1" title="Initialize variables and prepare to begin normal operation. " alt="" coords="479,157,567,184"/>
+<area shape="rect" id="node12" href="$d0/d88/bno055_8h.html#aba6bbb1c7975a758fda84e28494955b4" title="Reads how well calibrated the sensors of the peripheral are (0 to 100%). " alt="" coords="643,208,829,235"/>
+<area shape="rect" id="node13" href="$d0/d88/bno055_8h.html#a7d5cbfe40109146da9dd9cacc336ca37" title="Read the system status register. " alt="" coords="457,259,589,285"/>
+<area shape="rect" id="node14" href="$d3/d40/i2c__helper_8h.html#a808a2408b30460a4e0007fde5333ff8e" title="Write a given number of bits to an I2C peripheral. " alt="" coords="452,309,595,336"/>
+<area shape="rect" id="node9" href="$d0/d88/bno055_8h.html#a394bafbaab8543e54d768917ac020259" title="Attempt to recover from a problem with the peripheral by resetting certain things depending on how lo..." alt="" coords="669,157,803,184"/>
+<area shape="rect" id="node10" href="$d9/d05/bno055_8c.html#ac94fc5e78628ab5037170f7626ded1da" title="The interrupt handler receives the remaining I2C data at the end of the DMA transfer and resets the D..." alt="" coords="877,157,1064,184"/>
+<area shape="rect" id="node11" href="$d0/d88/bno055_8h.html#ab8c48cf3122ef342fc4244cf47c5eb8c" title="Update loop to handle state switching, conversion from raw to cooked data, and error detection..." alt="" coords="915,208,1026,235"/>
+<area shape="rect" id="node15" href="$d3/d40/i2c__helper_8h.html#a841ae3a556f7429fa0c60f42f8ce5824" title="Write 1 bit to an I2C peripheral. " alt="" coords="668,309,804,336"/>
+</map>

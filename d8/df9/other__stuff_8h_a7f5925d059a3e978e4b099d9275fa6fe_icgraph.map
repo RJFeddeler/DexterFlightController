@@ -1,0 +1,7 @@
+<map id="scale" name="scale">
+<area shape="rect" id="node2" href="$db/d3b/state_8h.html#ab40e643ee58137754cfcb6f13b66d7f0" title="Get the current throttle value based on mode and radio transmitter stick position. " alt="" coords="107,5,229,32"/>
+<area shape="rect" id="node6" href="$da/d1e/ws2812_8h.html#a73f24f6e6ca22da75c93f8863e7e359f" title="Update loop to handle state switching and animation updates at set intervals. " alt="" coords="277,56,389,83"/>
+<area shape="rect" id="node3" href="$d8/dc3/motor_8h.html#adb0453c4f136ac6c6e8df1e7b4ce03d4" title="Applies the correct adjustments to each motor to reach desired attitude and position. " alt="" coords="286,5,381,32"/>
+<area shape="rect" id="node4" href="$d8/dc3/motor_8h.html#a8198d81a9f7893c18f292202bf1893b8" title="Update loop to handle state switching and control implementation. " alt="" coords="437,5,539,32"/>
+<area shape="rect" id="node5" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="587,31,637,57"/>
+</map>

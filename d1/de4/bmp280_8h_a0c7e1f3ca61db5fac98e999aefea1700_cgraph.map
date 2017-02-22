@@ -1,0 +1,22 @@
+<map id="bmp280_update" name="bmp280_update">
+<area shape="rect" id="node2" href="$dd/de3/clocks_8c.html#a6bfa0b61c700896f296ad4490104b887" title="Determine if a specified amount of time has passed, which is useful for timing an event to execute at..." alt="" coords="168,31,348,57"/>
+<area shape="rect" id="node6" href="$df/d9b/bmp280_8c.html#aef271c5f42eaacefac1227fa5b24bd8f" title="Used to change settings, enable/disable features, or trigger actions when switching between two diffe..." alt="" coords="181,208,335,235"/>
+<area shape="rect" id="node8" href="$d2/de2/3dmath_8c.html#a7f8ba6b65218f7376d8e43839213528e" title="Resets a vector back to (0.0f, 0.0f, 0.0f). " alt="" coords="431,259,519,285"/>
+<area shape="rect" id="node10" href="$df/d9b/bmp280_8c.html#a5531f568e787ec3b475b424f42506248" title="Get the raw data values from the sensor for temperature and pressure. " alt="" coords="179,309,337,336"/>
+<area shape="rect" id="node15" href="$df/d9b/bmp280_8c.html#ae52b82ed3c498dc00f0f3e2c7e304c9f" title="Compensate raw temperature reading with manufacturer offsets for specific sensor to increase accuracy..." alt="" coords="179,360,337,387"/>
+<area shape="rect" id="node16" href="$df/d9b/bmp280_8c.html#aef7bd79dca215bbfc3ecb078f91818eb" title="Compensate raw pressure reading with manufacturer offsets for specific sensor to increase accuracy..." alt="" coords="178,411,338,437"/>
+<area shape="rect" id="node17" href="$df/d9b/bmp280_8c.html#a9df19b0d41bccbda1f54978c517102b3" title="Calculate the current altitude (in meters) based on the change in pressure. " alt="" coords="184,461,332,488"/>
+<area shape="rect" id="node19" href="$df/d9b/bmp280_8c.html#a76c218b3b04636749a1ccb2b10f66e3d" title="Use a Kalman filter to fuse pressure and accelerometer data to greatly increase altitude estimation a..." alt="" coords="177,107,339,133"/>
+<area shape="rect" id="node3" href="$df/d94/other__stuff_8c.html#a7b3ff1805d7e50020363b0fbb296430b" title="Make sure a value stays within a valid range between min and max. " alt="" coords="447,5,504,32"/>
+<area shape="rect" id="node4" href="$df/d94/other__stuff_8c.html#a224d6ae2826297b60e8898a8c4edbdcd" title="Determine the smaller of two values. " alt="" coords="633,5,675,32"/>
+<area shape="rect" id="node5" href="$df/d94/other__stuff_8c.html#a64905bcb2be886c8a6e078e424178972" title="Determine the larger of two values. " alt="" coords="631,56,677,83"/>
+<area shape="rect" id="node7" href="$d0/dc9/state_8c.html#af2d4dc0f36fb57df43a3c998186b6cf9" title="Set a peripheral as calibrated. " alt="" coords="406,157,545,184"/>
+<area shape="rect" id="node9" href="$df/d9b/bmp280_8c.html#a0a4b3ba072be39817d25b7b1bf084410" title="Configure the Kalman filter. " alt="" coords="396,208,555,235"/>
+<area shape="rect" id="node11" href="$dd/d2d/i2c__helper_8c.html#a69c250651e4e94c95214b39170123b24" title="Read a given number of bytes from an I2C peripheral. " alt="" coords="399,309,551,336"/>
+<area shape="rect" id="node12" href="$dd/de3/clocks_8c.html#a55b8a8410927fd42677ff5ff28eeeb34" title="Initializes the timed_out function by setting the start time. " alt="" coords="603,284,705,311"/>
+<area shape="rect" id="node13" href="$dd/de3/clocks_8c.html#a612b56be2ae481fb4767a6e2d3cee6fd" title="Determines if a specified amount of time has passed in order to detect if a code sequence is taking t..." alt="" coords="615,335,693,361"/>
+<area shape="rect" id="node14" href="$dd/de3/clocks_8c.html#a80325e4278271f29c53518c551c315ba" title="Determines if a specified amount of time has passed in order to detect if a code sequence is taking t..." alt="" coords="753,335,853,361"/>
+<area shape="rect" id="node18" href="$df/d94/other__stuff_8c.html#a067de32cf94a819f75aa31125a347591" title="Convert a distance in feet to meters. " alt="" coords="443,461,508,488"/>
+<area shape="rect" id="node20" href="$dd/de3/clocks_8c.html#a845c12da41e866f64654f14827b61cfa" title="Get the current tick count, with each tick representing a microsecond. " alt="" coords="415,107,535,133"/>
+<area shape="rect" id="node21" href="$df/d94/other__stuff_8c.html#a0f1e99ba7cca738089a7fd994bde9163" title="Make sure a floating&#45;point value stays within a valid range between min and max. " alt="" coords="445,56,505,83"/>
+</map>

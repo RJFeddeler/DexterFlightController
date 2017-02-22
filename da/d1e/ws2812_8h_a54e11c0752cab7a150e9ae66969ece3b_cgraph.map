@@ -1,0 +1,4 @@
+<map id="ws2812_fill_colorset" name="ws2812_fill_colorset">
+<area shape="rect" id="node2" href="$d4/def/ws2812_8c.html#a376cb086c9ffc322247ccd93c8cff788" title="Copy the color data from one color structure to another. " alt="" coords="200,5,336,32"/>
+<area shape="rect" id="node3" href="$d4/def/ws2812_8c.html#ae0aafc0171605448b9608d8951aa5b4c" title="Fill a color structure with data based on a color name from the palette. " alt="" coords="192,57,344,98"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="hcsr05_change_state" name="hcsr05_change_state">
+<area shape="rect" id="node2" href="$d2/def/hcsr05_8h.html#a5763e6b15048855d298f22451df93cd3" title="Update loop to handle state switching, starting and checking the signal, and conversion from raw to c..." alt="" coords="200,5,307,32"/>
+<area shape="rect" id="node3" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="355,5,405,32"/>
+</map>

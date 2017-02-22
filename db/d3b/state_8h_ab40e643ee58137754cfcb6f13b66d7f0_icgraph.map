@@ -1,0 +1,5 @@
+<map id="state_get_throttle" name="state_get_throttle">
+<area shape="rect" id="node2" href="$d8/dc3/motor_8h.html#adb0453c4f136ac6c6e8df1e7b4ce03d4" title="Applies the correct adjustments to each motor to reach desired attitude and position. " alt="" coords="176,5,271,32"/>
+<area shape="rect" id="node3" href="$d8/dc3/motor_8h.html#a8198d81a9f7893c18f292202bf1893b8" title="Update loop to handle state switching and control implementation. " alt="" coords="319,5,420,32"/>
+<area shape="rect" id="node4" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="468,5,519,32"/>
+</map>

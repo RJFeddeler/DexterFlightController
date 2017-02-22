@@ -1,0 +1,10 @@
+<map id="i2c_helper_write_byte" name="i2c_helper_write_byte">
+<area shape="rect" id="node2" href="$d1/de4/bmp280_8h.html#a6c50557a33966747573ec95378843ee0" title="Initialize variables and prepare to begin normal operation. " alt="" coords="413,5,505,32"/>
+<area shape="rect" id="node4" href="$d0/d88/bno055_8h.html#af806f0aa9f12441ed6b8acd83017a8d1" title="Initialize variables and prepare to begin normal operation. " alt="" coords="227,69,315,96"/>
+<area shape="rect" id="node8" href="$d3/d40/i2c__helper_8h.html#a808a2408b30460a4e0007fde5333ff8e" title="Write a given number of bits to an I2C peripheral. " alt="" coords="200,132,343,159"/>
+<area shape="rect" id="node3" href="$d0/d29/main_8c.html#a840291bc02cba5474a4cb46a9b9566fe" title="main" alt="" coords="809,56,860,83"/>
+<area shape="rect" id="node5" href="$d0/d88/bno055_8h.html#a394bafbaab8543e54d768917ac020259" title="Attempt to recover from a problem with the peripheral by resetting certain things depending on how lo..." alt="" coords="392,107,525,133"/>
+<area shape="rect" id="node6" href="$d9/d05/bno055_8c.html#ac94fc5e78628ab5037170f7626ded1da" title="The interrupt handler receives the remaining I2C data at the end of the DMA transfer and resets the D..." alt="" coords="575,107,761,133"/>
+<area shape="rect" id="node7" href="$d0/d88/bno055_8h.html#ab8c48cf3122ef342fc4244cf47c5eb8c" title="Update loop to handle state switching, conversion from raw to cooked data, and error detection..." alt="" coords="613,157,723,184"/>
+<area shape="rect" id="node9" href="$d3/d40/i2c__helper_8h.html#a841ae3a556f7429fa0c60f42f8ce5824" title="Write 1 bit to an I2C peripheral. " alt="" coords="391,157,527,184"/>
+</map>
