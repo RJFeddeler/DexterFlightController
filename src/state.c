@@ -2,8 +2,8 @@
 
 /** Initialize variables and prepare to begin normal operation.
   *
-  * @param periphs:		Enabled peripherals.
-  * @param pid:			PID gain coefficients.
+  * @param periphs:	Enabled peripherals.
+  * @param pid:		PID gain coefficients.
   * @param rules[][]:	List of rules for the radio transmitter switch positions to be in to enable arming.
   *
   * Returns The status of initialization.
@@ -277,9 +277,9 @@ bool state_rx_ready_to_arm() {
 /** Add a radio transmitter stick or switch position rule to the set of arming rules.
   *
   * @param rules[][]:	The array of arming rules to add to.
-  * @param channel:		The channel of the radio transmitter for the new rule.
-  * @param rule:		The logic statement of the new rule.
-  * @param value:		The value of the channel for the new rule.
+  * @param channel:	The channel of the radio transmitter for the new rule.
+  * @param rule:	The logic statement of the new rule.
+  * @param value:	The value of the channel for the new rule.
   *
   * @return The status of the function.
 ***/
@@ -398,7 +398,7 @@ int32_t state_get_throttle() {
 /** Reset the state parameters.
   *
   * @param status:	The status to start the state in
-  * (Should be calibrating mode unless coming out of failsafe).
+  * 			(Should be calibrating mode unless coming out of failsafe).
   *
   * @return Void.
 ***/
@@ -528,19 +528,19 @@ int8_t pid_update() {
 		if (abs(state.rx_channels[STATE_RX_CHANNEL_ELEVATOR] - STATE_RX_VALUE_MIDPOINT) > STATE_RX_DEADZONE) {
 			desired_angle[STATE_AXIS_PITCH] =
 					scalef((float)(STATE_RX_VALUE_MAX - (state.rx_channels[STATE_RX_CHANNEL_ELEVATOR] - (float)STATE_RX_VALUE_MIN)),
-							(float)STATE_RX_VALUE_MIN, (float)STATE_RX_VALUE_MAX, (float)(-STATE_MAX_TILT), (float)STATE_MAX_TILT);
+						(float)STATE_RX_VALUE_MIN, (float)STATE_RX_VALUE_MAX, (float)(-STATE_MAX_TILT), (float)STATE_MAX_TILT);
 		}
 
 		if (abs(state.rx_channels[STATE_RX_CHANNEL_AILERON] - STATE_RX_VALUE_MIDPOINT) > STATE_RX_DEADZONE) {
 			desired_angle[STATE_AXIS_ROLL] =
 					scalef(state.rx_channels[STATE_RX_CHANNEL_AILERON],
-							(float)STATE_RX_VALUE_MIN, (float)STATE_RX_VALUE_MAX, (float)(-STATE_MAX_TILT), (float)STATE_MAX_TILT);
+						(float)STATE_RX_VALUE_MIN, (float)STATE_RX_VALUE_MAX, (float)(-STATE_MAX_TILT), (float)STATE_MAX_TILT);
 		}
 
 		if (abs(state.rx_channels[STATE_RX_CHANNEL_RUDDER] - STATE_RX_VALUE_MIDPOINT) > STATE_RX_DEADZONE) {
 			float yaw_rate =
 					scalef((float)(STATE_RX_VALUE_MAX - (state.rx_channels[STATE_RX_CHANNEL_RUDDER] - (float)STATE_RX_VALUE_MIN)),
-							(float)STATE_RX_VALUE_MIN, (float)STATE_RX_VALUE_MAX, -1.0f, 1.0f);
+						(float)STATE_RX_VALUE_MIN, (float)STATE_RX_VALUE_MAX, -1.0f, 1.0f);
 
 			desired_angle[STATE_AXIS_YAW] += (yaw_rate * STATE_MAX_YAW);
 		}

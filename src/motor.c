@@ -50,10 +50,10 @@ void TIM3_IRQHandler(void) {
   * @return The status of configuration.
 ***/
 uint16_t motor_config() {
-	GPIO_InitTypeDef 			GPIO_InitStructure;
-	TIM_TimeBaseInitTypeDef  	TIM_TimeBaseStruct;
-	TIM_OCInitTypeDef  			TIM_OCInitStruct;
-	NVIC_InitTypeDef 			NVIC_InitStructure;
+	GPIO_InitTypeDef 	GPIO_InitStructure;
+	TIM_TimeBaseInitTypeDef	TIM_TimeBaseStruct;
+	TIM_OCInitTypeDef  	TIM_OCInitStruct;
+	NVIC_InitTypeDef 	NVIC_InitStructure;
 
 	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOE, ENABLE);
 	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOB, ENABLE);
@@ -205,7 +205,7 @@ void motor_change_state(uint8_t new_state) {
 /** Applies the correct adjustments to each motor to reach desired attitude and position.
   *
   * @param mix:		2D array of pitch, roll, and yaw ratios for each motor
-  * 				(each unique multicopter configuration needs its own mixer values).
+  * 			(each unique multicopter configuration needs its own mixer values).
   *
   * @return The status of the function.
 ***/

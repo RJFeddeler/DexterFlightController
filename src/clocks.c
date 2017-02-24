@@ -81,8 +81,8 @@ uint32_t clocks_get_millis() { return (sys_ticks / 1000); }
   * for timing an event to execute at a specific interval.
   *
   * @param *last_update:	Pointer to the tick count of the last time the event was executed
-  * 						and it's value is automatically updated when the time interval is reached.
-  * @param rate:			The rate, in Hz, at which the event should be executed (1-10000000 Hz).
+  * 				and it's value is automatically updated when the time interval is reached.
+  * @param rate:		The rate, in Hz, at which the event should be executed (1-10000000 Hz).
   *
   * @return 1 when the desired time has expired, otherwise 0.
 ***/

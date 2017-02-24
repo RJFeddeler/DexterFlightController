@@ -28,10 +28,10 @@ void DMA2_Stream6_IRQHandler(void) {
   * @return The status of configuration.
 ***/
 uint16_t serialtx_config() {
-	GPIO_InitTypeDef  		GPIO_InitStruct;
-	USART_InitTypeDef 		USART_InitStruct;
-	DMA_InitTypeDef			DMA_InitStruct;
-	NVIC_InitTypeDef  		NVIC_InitStruct;
+	GPIO_InitTypeDef  	GPIO_InitStruct;
+	USART_InitTypeDef 	USART_InitStruct;
+	DMA_InitTypeDef		DMA_InitStruct;
+	NVIC_InitTypeDef  	NVIC_InitStruct;
 
 	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOC, ENABLE);
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART6, ENABLE);
@@ -79,7 +79,7 @@ uint16_t serialtx_config() {
 	DMA_Init(DMA2_Stream6, &DMA_InitStruct);
 
 	DMA_ITConfig(DMA2_Stream6, DMA_IT_TC, ENABLE);
-	DMA2_Stream6->CR &= ~(0x4000);				 // DISABLE MEM2MEM MODE (PROBABLY DON'T NEED THIS, TEST ON WS2812)
+	DMA2_Stream6->CR &= ~(0x4000);	 // DISABLE MEM2MEM MODE (PROBABLY DON'T NEED THIS, TEST ON WS2812)
 
 	USART_DMACmd(USART6, USART_DMAReq_Tx, ENABLE);
 	USART_Cmd(USART6, ENABLE);

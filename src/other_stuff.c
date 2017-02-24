@@ -95,10 +95,10 @@ int16_t max_array(int16_t *values, uint16_t length) {
 /** Convert a value from one scale to another.
   *
   * @param start_scale_value:	The value to change the scale of.
-  * @param start_scale_min:		The minimum value of the starting scale.
-  * @param start_scale_max:		The maximum value of the starting scale.
-  * @param end_scale_min:		The minimum value of the converted scale.
-  * @param end_scale_max:		The maximum value of the converted scale.
+  * @param start_scale_min:	The minimum value of the starting scale.
+  * @param start_scale_max:	The maximum value of the starting scale.
+  * @param end_scale_min:	The minimum value of the converted scale.
+  * @param end_scale_max:	The maximum value of the converted scale.
   *
   * @return The original value scaled to the new range of numbers.
 ***/
@@ -111,10 +111,10 @@ int32_t scale(int32_t start_scale_value, int32_t start_scale_min, int32_t start_
 /** Convert a floating-point value from one scale to another.
   *
   * @param start_scale_value:	The value to change the scale of.
-  * @param start_scale_min:		The minimum value of the starting scale.
-  * @param start_scale_max:		The maximum value of the starting scale.
-  * @param end_scale_min:		The minimum value of the converted scale.
-  * @param end_scale_max:		The maximum value of the converted scale.
+  * @param start_scale_min:	The minimum value of the starting scale.
+  * @param start_scale_max:	The maximum value of the starting scale.
+  * @param end_scale_min:	The minimum value of the converted scale.
+  * @param end_scale_max:	The maximum value of the converted scale.
   *
   * @return The original floating-point value scaled to the new range of numbers.
 ***/
@@ -205,7 +205,7 @@ bool mem_cmp(const uint8_t *dest, const uint8_t *source, uint16_t length) {
 /** Perform a low pass filter on a changing value to reduce noise.
   *
   * @param lpf_beta:		Amount of the raw value that makes it through the
-  * 						filter (1.0 = no filter, 0.0 = fully filtered).
+  * 				filter (1.0 = no filter, 0.0 = fully filtered).
   * @param raw_value:		The value that needs to be filtered.
   * @param *filtered_value:	Pointer to the filtered value.
   *

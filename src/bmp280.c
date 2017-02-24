@@ -249,7 +249,7 @@ int8_t bmp280_compensate_t(int32_t raw, float *value) {
 
 	var1 = (((float)raw) / 16384.0f - ((float)bmp280_dig_t1) / 1024.0f) * ((float)bmp280_dig_t2);
 	var2 = ((((float)raw) / 131072.0f - ((float)bmp280_dig_t1) / 8192.0f) * (((float)raw) / 131072.0f -
-			((float) bmp280_dig_t1) / 8192.0f)) * ((float)bmp280_dig_t3);
+		((float) bmp280_dig_t1) / 8192.0f)) * ((float)bmp280_dig_t3);
 
 	bmp280_tfine = (int32_t)(var1 + var2);
 	*value = (float)((var1 + var2) / 5120.0f);

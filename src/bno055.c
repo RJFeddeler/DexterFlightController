@@ -112,8 +112,8 @@ uint16_t bno055_config() {
 /** Initialize variables and prepare to begin normal operation.
   *
   * @param skip_phase1:		If true, a portion of the initialization code is skipped
-  *  						(this option is used in special failsafe conditions when an
-  *  						in-flight restart is necessary).
+  *  				(this option is used in special failsafe conditions when an
+  *  				in-flight restart is necessary).
   *
   * @return The status of initialization.
 ***/
@@ -334,55 +334,55 @@ int8_t bno055_start_dma() {
 ***/
 int8_t bno055_parse_buffer() {
 	bno055_raw_values.gyr_x = ((uint16_t)(bno055_dma_buffer[BNO055_GYRO_DATA_X_MSB - BNO055_BUFFER_OFFSET]) << 8)
-			| bno055_dma_buffer[BNO055_GYRO_DATA_X_LSB - BNO055_BUFFER_OFFSET];
+					| bno055_dma_buffer[BNO055_GYRO_DATA_X_LSB - BNO055_BUFFER_OFFSET];
 	bno055_raw_values.gyr_y = ((uint16_t)(bno055_dma_buffer[BNO055_GYRO_DATA_Y_MSB - BNO055_BUFFER_OFFSET]) << 8)
-			| bno055_dma_buffer[BNO055_GYRO_DATA_Y_LSB - BNO055_BUFFER_OFFSET];
+					| bno055_dma_buffer[BNO055_GYRO_DATA_Y_LSB - BNO055_BUFFER_OFFSET];
 	bno055_raw_values.gyr_z = ((uint16_t)(bno055_dma_buffer[BNO055_GYRO_DATA_Z_MSB - BNO055_BUFFER_OFFSET]) << 8)
-			| bno055_dma_buffer[BNO055_GYRO_DATA_Z_LSB - BNO055_BUFFER_OFFSET];
+					| bno055_dma_buffer[BNO055_GYRO_DATA_Z_LSB - BNO055_BUFFER_OFFSET];
 
 	bno055_raw_values.acc_x = ((uint16_t)(bno055_dma_buffer[BNO055_ACCEL_DATA_X_MSB - BNO055_BUFFER_OFFSET]) << 8)
-			| bno055_dma_buffer[BNO055_ACCEL_DATA_X_LSB - BNO055_BUFFER_OFFSET];
+					| bno055_dma_buffer[BNO055_ACCEL_DATA_X_LSB - BNO055_BUFFER_OFFSET];
 	bno055_raw_values.acc_y = ((uint16_t)(bno055_dma_buffer[BNO055_ACCEL_DATA_Y_MSB - BNO055_BUFFER_OFFSET]) << 8)
-			| bno055_dma_buffer[BNO055_ACCEL_DATA_Y_LSB - BNO055_BUFFER_OFFSET];
+					| bno055_dma_buffer[BNO055_ACCEL_DATA_Y_LSB - BNO055_BUFFER_OFFSET];
 	bno055_raw_values.acc_z = ((uint16_t)(bno055_dma_buffer[BNO055_ACCEL_DATA_Z_MSB - BNO055_BUFFER_OFFSET]) << 8)
-			| bno055_dma_buffer[BNO055_ACCEL_DATA_Z_LSB - BNO055_BUFFER_OFFSET];
+					| bno055_dma_buffer[BNO055_ACCEL_DATA_Z_LSB - BNO055_BUFFER_OFFSET];
 
 	bno055_raw_values.mag_x = ((uint16_t)(bno055_dma_buffer[BNO055_MAG_DATA_X_MSB - BNO055_BUFFER_OFFSET]) << 8)
-			| bno055_dma_buffer[BNO055_MAG_DATA_X_LSB - BNO055_BUFFER_OFFSET];
+					| bno055_dma_buffer[BNO055_MAG_DATA_X_LSB - BNO055_BUFFER_OFFSET];
 	bno055_raw_values.mag_y = ((uint16_t)(bno055_dma_buffer[BNO055_MAG_DATA_Y_MSB - BNO055_BUFFER_OFFSET]) << 8)
-			| bno055_dma_buffer[BNO055_MAG_DATA_Y_LSB - BNO055_BUFFER_OFFSET];
+					| bno055_dma_buffer[BNO055_MAG_DATA_Y_LSB - BNO055_BUFFER_OFFSET];
 	bno055_raw_values.mag_z = ((uint16_t)(bno055_dma_buffer[BNO055_MAG_DATA_Z_MSB - BNO055_BUFFER_OFFSET]) << 8)
-			| bno055_dma_buffer[BNO055_MAG_DATA_Z_LSB - BNO055_BUFFER_OFFSET];
+					| bno055_dma_buffer[BNO055_MAG_DATA_Z_LSB - BNO055_BUFFER_OFFSET];
 
 	bno055_raw_values.eul_h = ((uint16_t)(bno055_dma_buffer[BNO055_EULER_H_MSB - BNO055_BUFFER_OFFSET]) << 8)
-			| bno055_dma_buffer[BNO055_EULER_H_LSB - BNO055_BUFFER_OFFSET];
+					| bno055_dma_buffer[BNO055_EULER_H_LSB - BNO055_BUFFER_OFFSET];
 	bno055_raw_values.eul_p = ((uint16_t)(bno055_dma_buffer[BNO055_EULER_P_MSB - BNO055_BUFFER_OFFSET]) << 8)
-			| bno055_dma_buffer[BNO055_EULER_P_LSB - BNO055_BUFFER_OFFSET];
+					| bno055_dma_buffer[BNO055_EULER_P_LSB - BNO055_BUFFER_OFFSET];
 	bno055_raw_values.eul_r = ((uint16_t)(bno055_dma_buffer[BNO055_EULER_R_MSB - BNO055_BUFFER_OFFSET]) << 8)
-			| bno055_dma_buffer[BNO055_EULER_R_LSB - BNO055_BUFFER_OFFSET];
+					| bno055_dma_buffer[BNO055_EULER_R_LSB - BNO055_BUFFER_OFFSET];
 
 	bno055_raw_values.quat_w = ((uint16_t)(bno055_dma_buffer[BNO055_QUATERNION_DATA_W_MSB - BNO055_BUFFER_OFFSET]) << 8)
-			| bno055_dma_buffer[BNO055_QUATERNION_DATA_W_LSB - BNO055_BUFFER_OFFSET];
+					| bno055_dma_buffer[BNO055_QUATERNION_DATA_W_LSB - BNO055_BUFFER_OFFSET];
 	bno055_raw_values.quat_x = ((uint16_t)(bno055_dma_buffer[BNO055_QUATERNION_DATA_X_MSB - BNO055_BUFFER_OFFSET]) << 8)
-			| bno055_dma_buffer[BNO055_QUATERNION_DATA_X_LSB - BNO055_BUFFER_OFFSET];
+					| bno055_dma_buffer[BNO055_QUATERNION_DATA_X_LSB - BNO055_BUFFER_OFFSET];
 	bno055_raw_values.quat_y = ((uint16_t)(bno055_dma_buffer[BNO055_QUATERNION_DATA_Y_MSB - BNO055_BUFFER_OFFSET]) << 8)
-			| bno055_dma_buffer[BNO055_QUATERNION_DATA_Y_LSB - BNO055_BUFFER_OFFSET];
+					| bno055_dma_buffer[BNO055_QUATERNION_DATA_Y_LSB - BNO055_BUFFER_OFFSET];
 	bno055_raw_values.quat_z = ((uint16_t)(bno055_dma_buffer[BNO055_QUATERNION_DATA_Z_MSB - BNO055_BUFFER_OFFSET]) << 8)
-			| bno055_dma_buffer[BNO055_QUATERNION_DATA_Z_LSB - BNO055_BUFFER_OFFSET];
+					| bno055_dma_buffer[BNO055_QUATERNION_DATA_Z_LSB - BNO055_BUFFER_OFFSET];
 
 	bno055_raw_values.linear_acc_x = ((uint16_t)(bno055_dma_buffer[BNO055_LINEAR_ACCEL_DATA_X_MSB - BNO055_BUFFER_OFFSET]) << 8)
-			| bno055_dma_buffer[BNO055_LINEAR_ACCEL_DATA_X_LSB - BNO055_BUFFER_OFFSET];
+					| bno055_dma_buffer[BNO055_LINEAR_ACCEL_DATA_X_LSB - BNO055_BUFFER_OFFSET];
 	bno055_raw_values.linear_acc_y = ((uint16_t)(bno055_dma_buffer[BNO055_LINEAR_ACCEL_DATA_Y_MSB - BNO055_BUFFER_OFFSET]) << 8)
-			| bno055_dma_buffer[BNO055_LINEAR_ACCEL_DATA_Y_LSB - BNO055_BUFFER_OFFSET];
+					| bno055_dma_buffer[BNO055_LINEAR_ACCEL_DATA_Y_LSB - BNO055_BUFFER_OFFSET];
 	bno055_raw_values.linear_acc_z = ((uint16_t)(bno055_dma_buffer[BNO055_LINEAR_ACCEL_DATA_Z_MSB - BNO055_BUFFER_OFFSET]) << 8)
-			| bno055_dma_buffer[BNO055_LINEAR_ACCEL_DATA_Z_LSB - BNO055_BUFFER_OFFSET];
+					| bno055_dma_buffer[BNO055_LINEAR_ACCEL_DATA_Z_LSB - BNO055_BUFFER_OFFSET];
 
 	bno055_raw_values.gravity_x = ((uint16_t)(bno055_dma_buffer[BNO055_GRAVITY_DATA_X_MSB - BNO055_BUFFER_OFFSET]) << 8)
-			| bno055_dma_buffer[BNO055_GRAVITY_DATA_X_LSB - BNO055_BUFFER_OFFSET];
+					| bno055_dma_buffer[BNO055_GRAVITY_DATA_X_LSB - BNO055_BUFFER_OFFSET];
 	bno055_raw_values.gravity_y = ((uint16_t)(bno055_dma_buffer[BNO055_GRAVITY_DATA_Y_MSB - BNO055_BUFFER_OFFSET]) << 8)
-			| bno055_dma_buffer[BNO055_GRAVITY_DATA_Y_LSB - BNO055_BUFFER_OFFSET];
+					| bno055_dma_buffer[BNO055_GRAVITY_DATA_Y_LSB - BNO055_BUFFER_OFFSET];
 	bno055_raw_values.gravity_z = ((uint16_t)(bno055_dma_buffer[BNO055_GRAVITY_DATA_Z_MSB - BNO055_BUFFER_OFFSET]) << 8)
-			| bno055_dma_buffer[BNO055_GRAVITY_DATA_Z_LSB - BNO055_BUFFER_OFFSET];
+					| bno055_dma_buffer[BNO055_GRAVITY_DATA_Z_LSB - BNO055_BUFFER_OFFSET];
 
 	bno055_raw_values.temperature = bno055_dma_buffer[BNO055_TEMP - BNO055_BUFFER_OFFSET];
 
@@ -439,7 +439,7 @@ int8_t bno055_cook_values() {
   * the total calibration is represented as 0 to 12.
   *
   * @param *calibration_percent:	Pointer to the variable holding calibration
-  * 								status (in 0-100% form) to be updated.
+  * 					status (in 0-100% form) to be updated.
   *
   * @return The status of the function.
 ***/
@@ -464,7 +464,7 @@ int8_t bno055_get_calibration_data(uint8_t *calibration_percent) {
 /** Read the system status register.
   *
   * @param *status:	Pointer to the variable that will hold the
-  * 				current system status of the peripheral.
+  * 			current system status of the peripheral.
   *
   * @return The status of the function.
 ***/
@@ -551,7 +551,7 @@ int8_t bno055_get_status(uint8_t *status) {
   * @param remap_z:	Set the z-axis of the sensor to x-axis (0), y-axis (1), z-axis (2).
   * @param *map:	Pointer to the new axis remap value.
   * @param *sign:	Pointer to the value indicating if each of the axes should be negated to
-  * 				point in the correct direction.
+  * 			point in the correct direction.
   *
   * @return The status of the function.
 ***/

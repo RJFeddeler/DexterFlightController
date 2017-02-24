@@ -13,22 +13,22 @@
 #include "other_stuff.h"
 
 
-#define HCSR05_SAMPLE_RATE					25			// 25 Hz
-#define HCSR05_FILTER_COUNT					9			// Median filter window size
+#define HCSR05_SAMPLE_RATE		25	// 25 Hz
+#define HCSR05_FILTER_COUNT		9	// Median filter window size
 
 
-uint8_t				hcsr05_last_state;
-uint32_t			hcsr05_counter;
+uint8_t			hcsr05_last_state;
+uint32_t		hcsr05_counter;
 
-bool				hcsr05_listening;
-bool				hcsr05_data_ready;
+bool			hcsr05_listening;
+bool			hcsr05_data_ready;
 
-float				hcsr05_offset;
-float				hcsr05_avg_sum;
+float			hcsr05_offset;
+float			hcsr05_avg_sum;
 
-uint32_t			hcsr05_raw;
-uint32_t			hcsr05_raw_history[HCSR05_FILTER_COUNT];
-float				hcsr05_cooked;
+uint32_t		hcsr05_raw;
+uint32_t		hcsr05_raw_history[HCSR05_FILTER_COUNT];
+float			hcsr05_cooked;
 
 uint16_t	hcsr05_config();
 uint16_t	hcsr05_init();

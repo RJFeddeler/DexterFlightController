@@ -24,10 +24,10 @@ void TIM2_IRQHandler(void) {
   * @return The status of configuration.
 ***/
 uint16_t hcsr05_config() {
-	GPIO_InitTypeDef 			GPIO_InitStructure;
-	TIM_TimeBaseInitTypeDef  	TIM_TimeBaseStruct;
-	TIM_ICInitTypeDef			TIM_ICInitStruct;
-	NVIC_InitTypeDef 			NVIC_InitStructure;
+	GPIO_InitTypeDef	GPIO_InitStructure;
+	TIM_TimeBaseInitTypeDef	TIM_TimeBaseStruct;
+	TIM_ICInitTypeDef	TIM_ICInitStruct;
+	NVIC_InitTypeDef 	NVIC_InitStructure;
 
 	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOB, ENABLE);
 	RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM2, ENABLE);
@@ -51,8 +51,8 @@ uint16_t hcsr05_config() {
 	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
 	NVIC_Init(&NVIC_InitStructure);
 
-	TIM_TimeBaseStruct.TIM_Prescaler = 83;					// 1 MHz (tick every microsecond)
-	TIM_TimeBaseStruct.TIM_Period = 0xFFFFFFFF;				// TIMER2 is 32-bit
+	TIM_TimeBaseStruct.TIM_Prescaler = 83;			// 1 MHz (tick every microsecond)
+	TIM_TimeBaseStruct.TIM_Period = 0xFFFFFFFF;		// TIMER2 is 32-bit
 	TIM_TimeBaseStruct.TIM_ClockDivision = TIM_CKD_DIV1;
 	TIM_TimeBaseStruct.TIM_CounterMode = TIM_CounterMode_Up;
 	TIM_TimeBaseInit(TIM4, &TIM_TimeBaseStruct);
@@ -166,7 +166,7 @@ void hcsr05_change_state(uint8_t new_state) {
 /** Use a median filter with a window of 9 to filter noise.
   *
   * @param value:	The most recent value read from the peripheral,
-  * 				used to replace the oldest value in the window.
+  * 			used to replace the oldest value in the window.
   *
   * @return The median value of the current window.
 ***/

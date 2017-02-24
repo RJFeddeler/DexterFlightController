@@ -30,10 +30,10 @@ void DMA2_Stream3_IRQHandler(void) {
   * @return The status of configuration.
 ***/
 int8_t sdcard_config() {
-	GPIO_InitTypeDef  		GPIO_InitStruct;
-	SPI_InitTypeDef 		SPI_InitStruct;
-	DMA_InitTypeDef			DMA_InitStruct;
-	NVIC_InitTypeDef  		NVIC_InitStruct;
+	GPIO_InitTypeDef  	GPIO_InitStruct;
+	SPI_InitTypeDef 	SPI_InitStruct;
+	DMA_InitTypeDef		DMA_InitStruct;
+	NVIC_InitTypeDef  	NVIC_InitStruct;
 
 	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA, ENABLE);
 	RCC_AHB1PeriphClockCmd(RCC_APB2Periph_SPI1, ENABLE);
@@ -129,7 +129,7 @@ int8_t sdcard_init() {
 	return 0;
 }
 
-//		EXTERN FUNCTION IMPLEMENTATIONS		//
+//	EXTERN FUNCTION IMPLEMENTATIONS		//
 
 /** FatFS implementation for initializing the disk.
   *

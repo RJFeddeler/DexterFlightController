@@ -1,5 +1,3 @@
-// THIS LIBRARY IS GARBAGE, DO IT RIGHT!!! :(
-
 #ifndef _SERIALTX_H
 #define _SERIALTX_H
 
@@ -16,11 +14,11 @@
 
 
 #define SERIALTX_BUFFER_SIZE		500
-#define SERIALTX_ERROR_CODE			0x800
+#define SERIALTX_ERROR_CODE		0x800
 
 
-uint8_t 			serialtx_dma_buffer[SERIALTX_BUFFER_SIZE];
-bool				serialtx_busy;
+uint8_t 		serialtx_dma_buffer[SERIALTX_BUFFER_SIZE];
+bool			serialtx_busy;
 
 
 uint16_t 	serialtx_config();

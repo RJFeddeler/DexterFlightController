@@ -10,10 +10,10 @@
 #include "other_stuff.h"
 
 
-#define CLOCKS_ERROR_CODE			0x200
+#define CLOCKS_ERROR_CODE		0x200
 
 
-static volatile uint32_t 	sys_ticks;
+static volatile uint32_t	sys_ticks;
 
 
 void 	 	SysTick_Handler(void);

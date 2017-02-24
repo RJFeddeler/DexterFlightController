@@ -12,10 +12,10 @@
 #include "other_stuff.h"
 
 
-#define DATALOGGER_SAMPLE_RATE		100		// 100 Hz
+#define DATALOGGER_SAMPLE_RATE		100	// 100 Hz
 
 
-uint8_t				datalogger_last_state;
+uint8_t			datalogger_last_state;
 
 
 uint16_t	datalogger_config();

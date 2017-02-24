@@ -262,7 +262,7 @@ int8_t i2c_helper_write_bits (I2C_TypeDef *I2Cx, uint8_t device, uint8_t reg, ui
   * then un-sticking it may reset it to be usable again.
   *
   * @param *port:	Pointer to the GPIO port containing the I2C peripheral to un-stick.
-  * @param scl_pin: SCL pin of the I2C peripheral.
+  * @param scl_pin: 	SCL pin of the I2C peripheral.
   * @param sda_pin:	SDA pin of the I2C peripheral.
   *
   * @return The status of the function.

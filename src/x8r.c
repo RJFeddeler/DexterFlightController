@@ -78,10 +78,10 @@ void DMA2_Stream2_IRQHandler(void) {
   * @return The status of configuration.
 ***/
 uint8_t x8r_config() {
-	GPIO_InitTypeDef  		GPIO_InitStruct;
-	USART_InitTypeDef 		USART_InitStruct;
-	DMA_InitTypeDef			DMA_InitStruct;
-	NVIC_InitTypeDef  		NVIC_InitStruct;
+	GPIO_InitTypeDef  	GPIO_InitStruct;
+	USART_InitTypeDef 	USART_InitStruct;
+	DMA_InitTypeDef		DMA_InitStruct;
+	NVIC_InitTypeDef  	NVIC_InitStruct;
 
 	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA, ENABLE);
 	RCC_APB2PeriphClockCmd(RCC_APB2Periph_USART1, ENABLE);

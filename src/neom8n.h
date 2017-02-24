@@ -13,7 +13,7 @@
 #include "other_stuff.h"
 
 
-uint8_t				neom8n_last_state;
+uint8_t			neom8n_last_state;
 
 
 uint16_t	neom8n_config();

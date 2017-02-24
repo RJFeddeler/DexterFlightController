@@ -21,9 +21,9 @@ int main(void) {
 	uint16_t rx_arming_rules[STATE_RX_CHANNEL_COUNT][2];
 	uint16_t periphs = 0;
 
-	pid_set(	&pid[STATE_AXIS_PITCH], 	4.1f,  0.0f,  0.4f		);	//	   4 / 1 / 0.5		Good
-	pid_set(	&pid[STATE_AXIS_ROLL], 		4.1f,  0.0f,  0.4f		);	//	   4 / 1 / 0.5		Starting
-	pid_set(	&pid[STATE_AXIS_YAW], 		9.0f,  0.0f,  0.9f		);	//	   9 / 1 / 1.5		Point
+	pid_set( &pid[STATE_AXIS_PITCH],	4.1f,  0.0f,  0.4f	);	// 4 / 1 / 0.5	Good
+	pid_set( &pid[STATE_AXIS_ROLL], 	4.1f,  0.0f,  0.4f	);	// 4 / 1 / 0.5	Starting
+	pid_set( &pid[STATE_AXIS_YAW],		9.0f,  0.0f,  0.9f	);	// 9 / 1 / 1.5	Point
 
 	state_rx_reset_arming_rules(rx_arming_rules);
 	state_rx_add_arming_rule(rx_arming_rules, STATE_RX_CHANNEL_THROTTLE, STATE_RX_RULE_EQUAL_TO, STATE_RX_VALUE_MIN);

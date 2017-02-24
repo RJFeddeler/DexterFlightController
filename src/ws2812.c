@@ -28,11 +28,11 @@ void DMA1_Stream0_IRQHandler(void) {
 uint8_t ws2812_config() {
 	// TIM4 CHANNEL 1 - Pin_B6 - DMA1_Stream0_Channel2
 
-	GPIO_InitTypeDef 			GPIO_InitStructure;
-	TIM_TimeBaseInitTypeDef  	TIM_TimeBaseStruct;
-	TIM_OCInitTypeDef  			TIM_OCInitStruct;
-	DMA_InitTypeDef 			DMA_InitStruct;
-	NVIC_InitTypeDef 			NVIC_InitStructure;
+	GPIO_InitTypeDef 	GPIO_InitStructure;
+	TIM_TimeBaseInitTypeDef	TIM_TimeBaseStruct;
+	TIM_OCInitTypeDef  	TIM_OCInitStruct;
+	DMA_InitTypeDef 	DMA_InitStruct;
+	NVIC_InitTypeDef 	NVIC_InitStructure;
 
 	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOB, ENABLE);
 	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_DMA1, ENABLE);
@@ -775,7 +775,7 @@ int8_t ws2812_set_global_brightness(uint8_t brightness) {
 
 /** Fill a color structure with data based on a color name from the palette.
   *
-  * @param source:		The name of the color.
+  * @param source:	The name of the color.
   * @param brightness:	The brightness level.
   *
   * @return The color structure.
@@ -833,9 +833,9 @@ struct Color ws2812_fill_color_from_palette(enum ColorPalette source, uint8_t br
 
 /** Fill a color structure based on given red, green, and blue values, along with brightness.
   *
-  * @param red:			Red value (0 to 255).
-  * @param green:		Green value (0 to 255).
-  * @param blue:		Blue value (0 to 255).
+  * @param red:		Red value (0 to 255).
+  * @param green:	Green value (0 to 255).
+  * @param blue:	Blue value (0 to 255).
   * @param brightness:	Brightness value (0 to 100)
   *
   * @return The color structure.
@@ -853,12 +853,12 @@ struct Color ws2812_fill_color_from_rgb(uint8_t red, uint8_t green, uint8_t blue
 
 /** Fill in the specified ColorSet data for the arm with the given color information.
   *
-  * @param *set:				Pointer to the ColorSet being filled.
-  * @param arm:					The arm being set.
-  * @param start_color:			The starting color for the specified arm.
+  * @param *set:		Pointer to the ColorSet being filled.
+  * @param arm:			The arm being set.
+  * @param start_color:		The starting color for the specified arm.
   * @param start_brightness:	The starting brightness for the specified arm.
-  * @param end_color:			The ending color for the specified arm.
-  * @param end_brightness:		The ending brightness for the specified arm.
+  * @param end_color:		The ending color for the specified arm.
+  * @param end_brightness:	The ending brightness for the specified arm.
   *
   * @return The status of the function.
 ***/
@@ -872,10 +872,10 @@ int8_t ws2812_fill_colorset(struct ColorSet *set, uint8_t arm, enum ColorPalette
 /** Set the ColorSet of a specified strip section and animation layer to
   * a previously filled in ColorSet structure.
   *
-  * @param ss:			The strip section being set (ss_Tube or ss_Mount).
-  * @param al:			The animation layer being set.
+  * @param ss:		The strip section being set (ss_Tube or ss_Mount).
+  * @param al:		The animation layer being set.
   * @param colorset:	The filled in ColorSet being used.
-  * @param reset:		True if you want to reset the animation, otherwise False.
+  * @param reset:	True if you want to reset the animation, otherwise False.
   *
   * @return The status of the function.
 ***/
@@ -1025,9 +1025,9 @@ int8_t ws2812_reset_animation(struct Animation *animation) {
 /** Get the color at a specified point blended between two other colors.
   *
   * @param progress:	How far from start and close to end the color is
-  * 					(0.0 = start, 1.0 = end).
-  * @param start:		The starting color.
-  * @param end:			The ending color.
+  * 			(0.0 = start, 1.0 = end).
+  * @param start:	The starting color.
+  * @param end:		The ending color.
   *
   * @return The Color somewhere between the start color and end color.
 ***/
@@ -1050,7 +1050,7 @@ struct Color ws2812_gradient(float progress, struct Color start, struct Color en
 
 /** Determine if given AnimationOptions and layer length include an animation or not.
   *
-  * @param ao:				The AnimationOptions to check.
+  * @param ao:			The AnimationOptions to check.
   * @param layer_length:	The length of the layer.
   *
   * @return True if specified AnimationOptions include something animated, otherwise False.

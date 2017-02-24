@@ -11,105 +11,105 @@
 #include "other_stuff.h"
 
 
-#define STATE_SAMPLE_RATE						800
+#define STATE_SAMPLE_RATE			800
 
-#define STATE_SYS_CALIBRATING					1
-#define STATE_SYS_IDLE							2
-#define STATE_SYS_ARMING						3
-#define STATE_SYS_ARMED							4
+#define STATE_SYS_CALIBRATING			1
+#define STATE_SYS_IDLE				2
+#define STATE_SYS_ARMING			3
+#define STATE_SYS_ARMED				4
 
-#define STATE_ARMING_TIME						2000
+#define STATE_ARMING_TIME			2000
 
-#define STATE_MOTOR_COUNT						6
-#define STATE_RX_CHANNEL_COUNT					16
+#define STATE_MOTOR_COUNT			6
+#define STATE_RX_CHANNEL_COUNT			16
 
-#define STATE_MOTOR_1							0
-#define STATE_MOTOR_2							1
-#define STATE_MOTOR_3							2
-#define STATE_MOTOR_4							3
-#define STATE_MOTOR_5							4
-#define STATE_MOTOR_6							5
+#define STATE_MOTOR_1				0
+#define STATE_MOTOR_2				1
+#define STATE_MOTOR_3				2
+#define STATE_MOTOR_4				3
+#define STATE_MOTOR_5				4
+#define STATE_MOTOR_6				5
 
-#define STATE_AXIS_PITCH						0
-#define STATE_AXIS_ROLL							1
-#define STATE_AXIS_YAW							2
+#define STATE_AXIS_PITCH			0
+#define STATE_AXIS_ROLL				1
+#define STATE_AXIS_YAW				2
 
-#define STATE_PERIPH_X8R						0x01
-#define STATE_PERIPH_BNO055						0x02
-#define STATE_PERIPH_NEOM8N						0x04
-#define STATE_PERIPH_BMP280						0x08
-#define STATE_PERIPH_HCSR05						0x10
-#define STATE_PERIPH_BATTERY					0x20
-#define STATE_PERIPH_MOTOR						0x40
-#define STATE_PERIPH_WS2812						0x80
-#define STATE_PERIPH_DATALOGGER					0x100
+#define STATE_PERIPH_X8R			0x01
+#define STATE_PERIPH_BNO055			0x02
+#define STATE_PERIPH_NEOM8N			0x04
+#define STATE_PERIPH_BMP280			0x08
+#define STATE_PERIPH_HCSR05			0x10
+#define STATE_PERIPH_BATTERY			0x20
+#define STATE_PERIPH_MOTOR			0x40
+#define STATE_PERIPH_WS2812			0x80
+#define STATE_PERIPH_DATALOGGER			0x100
 
-#define STATE_ERROR_CLOCKS						0x200
-#define STATE_ERROR_ONBOARD_LED					0x400
-#define STATE_ERROR_SERIALTX					0x800
-#define STATE_ERROR_STATE						0x1000
-#define STATE_ERROR_PERIPH_X8R					STATE_PERIPH_X8R
-#define STATE_ERROR_PERIPH_BNO055				STATE_PERIPH_BNO055
-#define STATE_ERROR_PERIPH_NEOM8N				STATE_PERIPH_NEOM8N
-#define STATE_ERROR_PERIPH_BMP280				STATE_PERIPH_BMP280
-#define STATE_ERROR_PERIPH_HCSR05				STATE_PERIPH_HCSR05
-#define STATE_ERROR_PERIPH_BATTERY				STATE_PERIPH_BATTERY
-#define STATE_ERROR_PERIPH_MOTOR				STATE_PERIPH_MOTOR
-#define STATE_ERROR_PERIPH_WS2812				STATE_PERIPH_WS2812
-#define STATE_ERROR_PERIPH_DATALOGGER			STATE_PERIPH_DATALOGGER
+#define STATE_ERROR_CLOCKS			0x200
+#define STATE_ERROR_ONBOARD_LED			0x400
+#define STATE_ERROR_SERIALTX			0x800
+#define STATE_ERROR_STATE			0x1000
+#define STATE_ERROR_PERIPH_X8R			STATE_PERIPH_X8R
+#define STATE_ERROR_PERIPH_BNO055		STATE_PERIPH_BNO055
+#define STATE_ERROR_PERIPH_NEOM8N		STATE_PERIPH_NEOM8N
+#define STATE_ERROR_PERIPH_BMP280		STATE_PERIPH_BMP280
+#define STATE_ERROR_PERIPH_HCSR05		STATE_PERIPH_HCSR05
+#define STATE_ERROR_PERIPH_BATTERY		STATE_PERIPH_BATTERY
+#define STATE_ERROR_PERIPH_MOTOR		STATE_PERIPH_MOTOR
+#define STATE_ERROR_PERIPH_WS2812		STATE_PERIPH_WS2812
+#define STATE_ERROR_PERIPH_DATALOGGER		STATE_PERIPH_DATALOGGER
 
-#define STATE_MAX_TILT							40
-#define STATE_MAX_YAW							40
+#define STATE_MAX_TILT				40
+#define STATE_MAX_YAW				40
 
-#define STATE_AUTOTUNE_RATE						100
-#define STATE_AUTOTUNE_STEP_COUNT				10
-#define STATE_AUTOTUNE_THROTTLE_MAX_OFFSET		100
-#define STATE_AUTOTUNE_TILT						25.0f
-#define STATE_AUTOTUNE_MAX_OVERSHOOT			1.0f
-#define STATE_AUTOTUNE_MAX_BOUNCE				3.0f
-#define STATE_AUTOTUNE_START_INCREMENT_D		0.1f
+#define STATE_AUTOTUNE_RATE			100
+#define STATE_AUTOTUNE_STEP_COUNT		10
+#define STATE_AUTOTUNE_THROTTLE_MAX_OFFSET	100
+#define STATE_AUTOTUNE_TILT			25.0f
+#define STATE_AUTOTUNE_MAX_OVERSHOOT		1.0f
+#define STATE_AUTOTUNE_MAX_BOUNCE		3.0f
+#define STATE_AUTOTUNE_START_INCREMENT_D	0.1f
 
-#define STATE_RX_DEADZONE						15
-#define STATE_RX_VALUE_MIN						172
-#define STATE_RX_VALUE_MAX						1811
-#define STATE_RX_VALUE_MIDPOINT					((STATE_RX_VALUE_MIN + STATE_RX_VALUE_MAX) / 2)
+#define STATE_RX_DEADZONE			15
+#define STATE_RX_VALUE_MIN			172
+#define STATE_RX_VALUE_MAX			1811
+#define STATE_RX_VALUE_MIDPOINT			((STATE_RX_VALUE_MIN + STATE_RX_VALUE_MAX) / 2)
 
-#define STATE_MOTOR_VALUE_MIN					1068
-#define STATE_MOTOR_VALUE_MAX					1868
+#define STATE_MOTOR_VALUE_MIN			1068
+#define STATE_MOTOR_VALUE_MAX			1868
 
-#define STATE_RX_CHANNEL_THROTTLE				0
-#define STATE_RX_CHANNEL_AILERON				1
-#define STATE_RX_CHANNEL_ELEVATOR				2
-#define STATE_RX_CHANNEL_RUDDER					3
-#define STATE_RX_CHANNEL_TOGGLE_L_3POS_1		4
-#define STATE_RX_CHANNEL_TOGGLE_L_3POS_2 		5
-#define STATE_RX_CHANNEL_TOGGLE_L_3POS_3 		6
-#define STATE_RX_CHANNEL_TOGGLE_R_3POS_1 		7
-#define STATE_RX_CHANNEL_TOGGLE_R_3POS_2 		8
-#define STATE_RX_CHANNEL_TOGGLE_R_3POS_3 		9
-#define STATE_RX_CHANNEL_TOGGLE_L_2POS	 		10
-#define STATE_RX_CHANNEL_TOGGLE_R_2POS	 		11
-#define STATE_RX_CHANNEL_TOGGLE_L_KNOB	 		12
-#define STATE_RX_CHANNEL_TOGGLE_R_KNOB	 		13
-#define STATE_RX_CHANNEL_TOGGLE_L_SLIDER 		14
-#define STATE_RX_CHANNEL_TOGGLE_R_SLIDER 		15
+#define STATE_RX_CHANNEL_THROTTLE		0
+#define STATE_RX_CHANNEL_AILERON		1
+#define STATE_RX_CHANNEL_ELEVATOR		2
+#define STATE_RX_CHANNEL_RUDDER			3
+#define STATE_RX_CHANNEL_TOGGLE_L_3POS_1	4
+#define STATE_RX_CHANNEL_TOGGLE_L_3POS_2 	5
+#define STATE_RX_CHANNEL_TOGGLE_L_3POS_3 	6
+#define STATE_RX_CHANNEL_TOGGLE_R_3POS_1 	7
+#define STATE_RX_CHANNEL_TOGGLE_R_3POS_2 	8
+#define STATE_RX_CHANNEL_TOGGLE_R_3POS_3 	9
+#define STATE_RX_CHANNEL_TOGGLE_L_2POS	 	10
+#define STATE_RX_CHANNEL_TOGGLE_R_2POS	 	11
+#define STATE_RX_CHANNEL_TOGGLE_L_KNOB	 	12
+#define STATE_RX_CHANNEL_TOGGLE_R_KNOB	 	13
+#define STATE_RX_CHANNEL_TOGGLE_L_SLIDER 	14
+#define STATE_RX_CHANNEL_TOGGLE_R_SLIDER 	15
 
-#define STATE_RX_RULE_NONE						0x00
-#define STATE_RX_RULE_EQUAL_TO					0x01
-#define STATE_RX_RULE_GREATER_THAN				0x02
-#define STATE_RX_RULE_LESS_THAN					0x04
+#define STATE_RX_RULE_NONE			0x00
+#define STATE_RX_RULE_EQUAL_TO			0x01
+#define STATE_RX_RULE_GREATER_THAN		0x02
+#define STATE_RX_RULE_LESS_THAN			0x04
 
-#define STATE_RX_POSITION_0						STATE_RX_VALUE_MIN
-#define STATE_RX_POSITION_1						STATE_RX_VALUE_MIDPOINT
-#define STATE_RX_POSITION_2						STATE_RX_VALUE_MAX
+#define STATE_RX_POSITION_0			STATE_RX_VALUE_MIN
+#define STATE_RX_POSITION_1			STATE_RX_VALUE_MIDPOINT
+#define STATE_RX_POSITION_2			STATE_RX_VALUE_MAX
 
-#define STATE_RX_FAILSAFE_STAGE_1				10
-#define STATE_RX_FAILSAFE_STAGE_2				100
+#define STATE_RX_FAILSAFE_STAGE_1		10
+#define STATE_RX_FAILSAFE_STAGE_2		100
 
-#define STATE_IMU_FAILSAFE_STAGE_1				5
-#define STATE_IMU_FAILSAFE_STAGE_2				100
+#define STATE_IMU_FAILSAFE_STAGE_1		5
+#define STATE_IMU_FAILSAFE_STAGE_2		100
 
-#define PID_MAX_ERROR_SUM						100
+#define PID_MAX_ERROR_SUM			100
 
 
 typedef enum {
@@ -168,37 +168,37 @@ struct AutotuneTest {
 };
 
 struct {
-	uint8_t				status;
-	uint8_t				imu_calibration_percent;
-	bool				mode_hover;
+	uint8_t			status;
+	uint8_t			imu_calibration_percent;
+	bool			mode_hover;
 	enum AutotuneState	mode_autotune;
 
-	float				voltage;
-	float				current;
+	float			voltage;
+	float			current;
 
-	vector 				gyr, acc, mag;
-	vector 				gravity, linear_acc, linear_acc_notilt;
+	vector 			gyr, acc, mag;
+	vector 			gravity, linear_acc, linear_acc_notilt;
 
-	float				velocity, velocity_gps;
-	float				climb_acc, climb_velocity, horizon_velocity;
+	float			velocity, velocity_gps;
+	float			climb_acc, climb_velocity, horizon_velocity;
 
-	float 				latitude, longitude;
+	float 			latitude, longitude;
 
-	float				temperature_imu, temperature_bp;
+	float			temperature_imu, temperature_bp;
 
-	float 				pressure, altitude;
+	float 			pressure, altitude;
 
-	float 				alt_bp, alt_us, alt_gps;
+	float 			alt_bp, alt_us, alt_gps;
 
-	float 				pitch, roll, heading;
-	quaternion 			q;
+	float 			pitch, roll, heading;
+	quaternion 		q;
 
-	uint16_t			imu_failsafe_count;
-	uint16_t			rx_failsafe_count;
-	uint16_t 			rx_channels[STATE_RX_CHANNEL_COUNT];
-	uint16_t			motors[STATE_MOTOR_COUNT];
+	uint16_t		imu_failsafe_count;
+	uint16_t		rx_failsafe_count;
+	uint16_t 		rx_channels[STATE_RX_CHANNEL_COUNT];
+	uint16_t		motors[STATE_MOTOR_COUNT];
 
-	struct PID			pid[3];
+	struct PID		pid[3];
 
 	// GPS PACKET INFO (ALSO SET UP GPS TO SEND MORE PACKETS)
 } state;
@@ -211,15 +211,15 @@ struct waypoint {
 	quaternion 	q;
 };
 
-volatile uint16_t		state_calibrated;
-uint16_t				state_periphs;
-uint16_t 				state_rx_arming_position[STATE_RX_CHANNEL_COUNT][2];
-struct AutotuneTest		*state_autotune_current_test;
-struct AutotuneTest		state_autotune_test_history[3][STATE_AUTOTUNE_STEP_COUNT];
+volatile uint16_t	state_calibrated;
+uint16_t		state_periphs;
+uint16_t 		state_rx_arming_position[STATE_RX_CHANNEL_COUNT][2];
+struct AutotuneTest	*state_autotune_current_test;
+struct AutotuneTest	state_autotune_test_history[3][STATE_AUTOTUNE_STEP_COUNT];
 struct AutotuneRange	state_autotune_range[3];
-uint16_t				state_autotune_start_throttle;
-struct waypoint			home;
-uint8_t					ws2812[252];
+uint16_t		state_autotune_start_throttle;
+struct waypoint		home;
+uint8_t			ws2812[252];
 
 
 uint16_t	state_init(uint16_t periphs, struct PID pid[3], uint16_t rules[STATE_RX_CHANNEL_COUNT][2]);
