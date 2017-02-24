@@ -7,10 +7,10 @@
   * @return The status of configuration.
 ***/
 uint16_t battery_config() {
-	GPIO_InitTypeDef 		GPIO_InitStructure;
-	ADC_InitTypeDef 		ADC_InitStructure;
-	ADC_CommonInitTypeDef 	ADC_CommonInitStructure;
-	DMA_InitTypeDef 		DMA_InitStruct;
+	GPIO_InitTypeDef		GPIO_InitStructure;
+	ADC_InitTypeDef			ADC_InitStructure;
+	ADC_CommonInitTypeDef	ADC_CommonInitStructure;
+	DMA_InitTypeDef			DMA_InitStruct;
 
 	// Enable Clocks
 	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOC, ENABLE);
