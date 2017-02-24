@@ -22,18 +22,20 @@
 #define WS2812_LED_COUNT			(WS2812_ARM_COUNT * WS2812_LEDS_PER_ARM_ALL)
 #define WS2812_LAYER_COUNT			2
 #define WS2812_LAYER_LENGTH_MASK		0xF000
-#define WS2812_SAMPLE_RATE			200								// 200 Hz
+#define WS2812_SAMPLE_RATE			200		// 200 Hz
 
-#define WS2812_DEFAULT_SAMPLE_RATE		0								//   0 Hz (OFF)
+#define WS2812_DEFAULT_SAMPLE_RATE		0		//   0 Hz (OFF)
 #define WS2812_DEFAULT_BRIGHTNESS		0
 #define WS2812_DEFAULT_COLOR			cp_off
 
 #define WS2812_SIGNAL_START_DELAY		4
 #define WS2812_SIGNAL_END_DELAY			42
-#define WS2812_BUFFER_SIZE			(WS2812_LED_COUNT * 24 + WS2812_SIGNAL_START_DELAY + WS2812_SIGNAL_END_DELAY) 	// 24 bits per LED + end of signal delay 50us + start of signal delay (to ensure first bit is seen)
-#define WS2812_BIT_1				68 								// ~800 ns
-#define WS2812_BIT_0				30 								// ~350 ns
-#define WS2812_BIT_Z				0  								//    0 ns
+
+						// 24 bits per LED + end of signal delay 50us + start of signal delay (to ensure first bit is seen)
+#define WS2812_BUFFER_SIZE			(WS2812_LED_COUNT * 24 + WS2812_SIGNAL_START_DELAY + WS2812_SIGNAL_END_DELAY)
+#define WS2812_BIT_1				68 		// ~800 ns
+#define WS2812_BIT_0				30 		// ~350 ns
+#define WS2812_BIT_Z				0  		//    0 ns
 
 #define WS2812_GREEN				0
 #define WS2812_RED				1
