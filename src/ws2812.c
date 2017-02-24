@@ -53,8 +53,8 @@ uint8_t ws2812_config() {
 	NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
 	NVIC_Init(&NVIC_InitStructure);
 
-	TIM_TimeBaseStruct.TIM_Prescaler = 0;								//  84 MHz
-	TIM_TimeBaseStruct.TIM_Period = 104;								// 800 kHz
+	TIM_TimeBaseStruct.TIM_Prescaler = 0;			//  84 MHz
+	TIM_TimeBaseStruct.TIM_Period = 104;			// 800 kHz
 	TIM_TimeBaseStruct.TIM_ClockDivision = TIM_CKD_DIV1;
 	TIM_TimeBaseStruct.TIM_CounterMode = TIM_CounterMode_Up;
 	TIM_TimeBaseInit(TIM4, &TIM_TimeBaseStruct);
